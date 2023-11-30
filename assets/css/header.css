@@ -1,16 +1,33 @@
 .header {
     width: 100vw;
     height: 100px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: green;
+
+    background-color: #193353;
+    color: white;
+    font-size: 19px;
 }
 
-.menu ul {
-    width: 300px;
+.header-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    width: 500px;
+    padding: 0px;
+
     display: flex;
     justify-content: space-around;
+
     list-style-type: none;
-    padding: 0px;
+}
+
+.header-languge {
+    display: flex;
 }
