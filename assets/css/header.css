@@ -1,3 +1,27 @@
+/* QUICK-CONTACT */
+.quick-contact-info {
+    display: none;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    font-size: 13px;
+}
+
+.quick-contact-info div {
+    display: flex;
+}
+
+.quick-contact-info img {
+    filter: invert(100%);
+}
+
+
+
 /* HEADER */
 .header {
     width: 100%;
@@ -15,19 +39,38 @@
     padding: 10px;
 }
 
-.header ul {
-    width: 500px;
-    padding: 0px;
+#header-nav {
+    position: absolute;
+    top: 99px;
+    right: -50px;
 
+    display: none;
+    background-color: #193353;
+
+    width: 200px;
+    padding-left: 20px;
+    font-size: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+#header-nav ul {
+    padding: 0px;
     list-style-type: none;
+}
+
+#header-nav li {
+    padding: 5px;
 }
 
 .header a {
     font-family: "Barlow_Semi_Condensed";
 }
 
+
+
 /* HAMBURGER MENU */
-.hamburger-menu {
+#hamburger-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +78,40 @@
     cursor: pointer;
 }
 
-.hamburger-line-one,
-.hamburger-line-two,
-.hamburger-line-three {
+#hamburger-line-one,
+#hamburger-line-two,
+#hamburger-line-three {
     width: 30px;
     height: 2px;
     border: 1px solid black;
     background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+    .quick-contact-info {
+        display: flex;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #header-nav {
+        position: static;
+        display: block;
+
+
+        width: 550px;
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    #header-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }
