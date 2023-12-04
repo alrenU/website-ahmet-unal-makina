@@ -81,3 +81,10 @@ body {
 .contact-button:hover {
     background-color: rgb(81, 117, 247);
 }
+
+.read-more {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 0;
+    font-size: 18px;
+}
