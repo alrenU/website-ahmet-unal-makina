@@ -14,10 +14,17 @@
 
 .quick-contact-info div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quick-contact-info img {
     filter: invert(100%);
+    margin-right: 5px;
+}
+
+.quick-contact-info a {
+    color: white;
 }
 
 
@@ -65,6 +72,7 @@
 
 .header a {
     font-family: "Barlow_Semi_Condensed";
+    color: white;
 }
 
 
