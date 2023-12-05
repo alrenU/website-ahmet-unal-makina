@@ -1,3 +1,18 @@
+// Shrink the header height after the page is being scrolled.
+window.addEventListener("scroll", function (event) {
+    const scrollPositionY = window.scrollY;
+    const headerElement = this.document.getElementsByClassName("header")[0];
+
+    if(scrollPositionY < 150) {
+        if(scrollPositionY < 100) {
+            headerElement.style.height = "100px";
+        }
+    } else {
+        headerElement.style.height = "80px";
+    }
+    console.log("scrollPositionY: ", scrollPositionY);
+});
+
 // HAMBURGER MENU
 let openHamburgerMenu = false;
 
