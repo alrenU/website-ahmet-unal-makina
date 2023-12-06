@@ -10,19 +10,30 @@
     color: white;
 
     font-size: 13px;
+    height: 40px;
 }
 
 .quick-contact-info div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quick-contact-info img {
     filter: invert(100%);
+    margin-right: 5px;
 }
 
-
+.quick-contact-info a {
+    color: white;
+}
 
 /* HEADER */
+.header-wrapper {
+    position: sticky;
+    top: 0px;
+}
+
 .header {
     width: 100%;
     height: 100px;
@@ -37,6 +48,7 @@
 
     box-sizing: border-box;
     padding: 10px;
+    transition: all 0.3s ease-out;
 }
 
 #header-nav {
@@ -65,9 +77,8 @@
 
 .header a {
     font-family: "Barlow_Semi_Condensed";
+    color: white;
 }
-
-
 
 /* HAMBURGER MENU */
 #hamburger-menu {
@@ -86,6 +97,11 @@
     border: 1px solid black;
     background-color: white;
     transition: all 0.3s ease-out;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: gray;
 }
 
 
