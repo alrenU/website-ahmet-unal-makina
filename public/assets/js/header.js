@@ -1,64 +1,68 @@
-// Shrink the header height after the page is being scrolled.
-// window.addEventListener("scroll", function (event) {
-//     const scrollPositionY = window.scrollY;
-//     const headerElement = this.document.getElementsByClassName("header")[0];
+// Add background to the header after scrolling.
+const navWrapperElem = document.querySelector(".navigation-wrapper");
+const logoElem = document.querySelector(".logo");
+const barElems = document.querySelectorAll(".bar");
+const hamburgerMenuElem = document.querySelector(".hamburger-menu");
 
-//     if(scrollPositionY < 150) {
-//         if(scrollPositionY < 100) {
-//             headerElement.style.height = "100px";
-//         }
-//     } else {
-//         headerElement.style.height = "80px";
-//     }
-//     console.log("scrollPositionY: ", scrollPositionY);
-// });
+let changedStyle = false;
 
-// HAMBURGER MENU
-let openHamburgerMenu = false;
+window.addEventListener("scroll", () => {
+    const scrollPositionY = window.scrollY;
+    changeElemStyleAfterScroll(scrollPositionY);
+});
 
-const lineOne = document.getElementById("hamburger-line-one");
-const lineTwo = document.getElementById("hamburger-line-two");
-const lineThree = document.getElementById("hamburger-line-three");
-const headerNav = document.getElementById("navigation");
+const changeElemStyleAfterScroll = (scrollPositionY) => {
+    if(scrollPositionY > 100) {
+        if(!changedStyle) {
+            navWrapperElem.classList.add("scrolled");
+            logoElem.classList.add("scrolled");
 
-function handleHamburgerMenuClick() {
-    if (!openHamburgerMenu) {
-        Object.assign(lineOne.style, {
-            transform: "translate(0px, 8px) rotate(45deg)"
-        });
+            barElems.forEach(element => {
+                element.classList.add("scrolled");
+            });
 
-        Object.assign(lineTwo.style, {
-            opacity: "0",
-            transform: "translate(-10px, 0px)"
-        });
-
-        Object.assign(lineThree.style, {
-            transform: "translate(0px, -8px) rotate(-45deg)"
-        });
-
-        Object.assign(headerNav.style, {
-            display: "block",
-            right: "0px"
-        });
+            changedStyle = true;
+        }
     } else {
-        Object.assign(lineOne.style, {
-            transform: "translate(0px, 0px) rotate(0deg)"
-        });
+        if (changedStyle && !hamburgerMenuElem.classList.contains("activated")) {
+            navWrapperElem.classList.remove("scrolled");
+            logoElem.classList.remove("scrolled");
 
-        Object.assign(lineTwo.style, {
-            opacity: "1",
-            transform: "translate(0px, 0px)"
-        });
+            barElems.forEach(element => {
+                element.classList.remove("scrolled");
+            });
 
-        Object.assign(lineThree.style, {
-            transform: "translate(0px, 0px) rotate(0deg)"
-        });
-
-        Object.assign(headerNav.style, {
-            display: "none",
-            right: "-50px"
-        });
+            changedStyle = false;
+        }
     }
+}
 
-    openHamburgerMenu = !openHamburgerMenu;
+// Open and close hamburger menu behaviors.
+const navElem = document.querySelector(".navigation");
+const navLinkElems = document.querySelectorAll(".nav-link");
+const backgroundBlurElem = document.querySelector(".background-blur");
+
+hamburgerMenuElem.addEventListener("click", () => {
+    hamburgerMenuElem.classList.toggle("activated");
+    navElem.classList.toggle("activated");
+    backgroundBlurElem.classList.toggle("activated");
+
+    // If the hamburger menu is open, change the header style to as if it is being scrolled.
+    addOrRemoveAfterScrollStyle();
+});
+
+for(let i = 0; i < navLinkElems.length; i++) {
+    navLinkElems[i].addEventListener("click", () => {
+        hamburgerMenuElem.classList.remove("activated");
+        navElem.classList.remove("activated");
+        addOrRemoveAfterScrollStyle();
+    });
+}
+
+const addOrRemoveAfterScrollStyle = () => {
+    if(hamburgerMenuElem.classList.contains("activated")) {
+        changeElemStyleAfterScroll(150);
+    } else {
+        changeElemStyleAfterScroll(window.scrollY);
+    }
 }

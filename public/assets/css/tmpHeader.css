@@ -1,0 +1,133 @@
+/* QUICK-CONTACT */
+.quick-contact-info {
+    display: none;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    font-size: 13px;
+    height: 40px;
+}
+
+.quick-contact-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-contact-info img {
+    filter: invert(100%);
+    margin-right: 5px;
+}
+
+.quick-contact-info a {
+    color: white;
+}
+
+/* HEADER */
+.header-wrapper {
+    position: sticky;
+    top: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #193353;
+    color: white;
+    font-size: 19px;
+
+    box-sizing: border-box;
+    padding: 10px;
+    transition: all 0.3s ease-out;
+}
+
+#header-nav {
+    position: absolute;
+    top: 99px;
+    right: -50px;
+
+    display: none;
+    background-color: #193353;
+
+    width: 200px;
+    padding-left: 20px;
+    font-size: 25px;
+
+    transition: all 0.3s ease-out;
+}
+
+#header-nav ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+#header-nav li {
+    padding: 5px;
+}
+
+.header a {
+    font-family: "Barlow_Semi_Condensed";
+    color: white;
+}
+
+/* HAMBURGER MENU */
+#hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+#hamburger-line-one,
+#hamburger-line-two,
+#hamburger-line-three {
+    width: 30px;
+    height: 2px;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: gray;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+    .quick-contact-info {
+        display: flex;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #header-nav {
+        position: static;
+        display: block;
+
+
+        width: 550px;
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    #header-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
