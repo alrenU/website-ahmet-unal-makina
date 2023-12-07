@@ -1,0 +1,26 @@
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.content-container h2 {
+    text-align: center;
+}
+
+#about-us,
+#services,
+#references,
+#testimonials,
+#contact {
+    border: 1px solid black;
+}
