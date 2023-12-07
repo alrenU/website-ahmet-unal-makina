@@ -185,13 +185,28 @@
     .navigation {
         position: static;
         display: block;
+        opacity: 1;
 
         width: 550px;
-        padding-left: 0px;
+        height: auto;
+        background-color: transparent;
     }
 
     .navigation ul {
         display: flex;
         justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .navigation li {
+        padding: 0px;
+    }
+
+    .navigation a {
+        color: black;
+    }
+    
+    .navigation-wrapper.scrolled a {
+        color: white;
     }
 }

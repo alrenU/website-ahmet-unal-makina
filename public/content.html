@@ -14,47 +14,100 @@
     <div class="content-wrapper">
         <div class="content-container">
             <section id="about-us">
-                <h2>Hakkımızda</h2>
+                <h2 class="section-heading">Hakkımızda</h2>
+                
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit suscipit magnam inventore
                     earum! Voluptatum sunt fugit excepturi animi officia nesciunt, inventore repellat, suscipit unde cum
                     est praesentium consequuntur reprehenderit expedita.</p>
             </section>
 
             <section id="services">
-                <h2>Hizmetlerimiz</h2>
+                <h2 class="section-heading">Hizmetlerimiz</h2>
 
-                <img src="assets/icons/screw.svg" alt="Screw icon.">
-                <p>Vida & Kovan</p>
-                <p>İhtiyacınıza uygun vida & kovan tasarlayıp, üretiyoruz.</p>
+                <div class="service-container">
+                    <img class="services-icon" src="assets/icons/screw.svg" alt="Çivi ikonu.">
+                    <p class="icon-caption">Vida & Kovan</p>
+                    <p>İhtiyacınıza uygun vida & kovan tasarlayıp, üretiyoruz.</p>
+                </div>
 
-                <img src="assets/icons/services.svg" alt="Machine revision icon.">
-                <p>Makine Revizyon</p>
-                <p>Eski enjeksiyon makinelerinizin tüm onarımları yapıyoruz.</p>
+                <div class="service-container">
+                    <img class="services-icon" src="assets/icons/services.svg" alt="Makine revizyonu ikonu.">
+                    <p class="icon-caption">Makine Revizyon</p>
+                    <p>Eski enjeksiyon makinelerinizin tüm onarımları yapıyoruz.</p>
+                </div>
 
-                <img src="assets/icons/service.svg" alt="Technical service icon.">
-                <p>Teknik Servis</p>
-                <p>Çeşitli cihazların teknik servisi, bakım ve onarımı sağlıyoruz.</p>
+                <div class="service-container">
+                    <img class="services-icon" src="assets/icons/service.svg" alt="Teknik servis ikonu.">
+                    <p class="icon-caption">Teknik Servis</p>
+                    <p>Çeşitli cihazların teknik servisi, bakım ve onarımı sağlıyoruz.</p>
+                </div>
             </section>
 
             <section id="references">
-                <h2>Referanslarımız</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit suscipit magnam inventore
-                    earum! Voluptatum sunt fugit excepturi animi officia nesciunt, inventore repellat, suscipit unde cum
-                    est praesentium consequuntur reprehenderit expedita.</p>
+                <h2 class="section-heading">Referanslarımız</h2>
+
+                <div class="references-logo-container">
+                    <img class="reference-logo" src="assets/img/logos/gondol_plastik_logo.png"
+                        alt="Gondol Plastik logosu.">
+                    <img class="reference-logo" src="assets/img/logos/irfan_plastik_logo.png"
+                        alt="Irfan Plastik logosu.">
+                    <img class="reference-logo" src="assets/img/logos/melih_plastik_logo.jpg"
+                        alt="Melih Plastik logosu.">
+                    <img class="reference-logo" src="assets/img/logos/ransel_plastik_logo.png"
+                        alt="Ransel Plastik logosu.">
+                    <img class="reference-logo" src="assets/img/logos/titiz_plastik_logo.png"
+                        alt="Titiz Plastik logosu.">
+                </div>
             </section>
 
             <section id="testimonials">
-                <h2>Müşteri Yorumları</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit suscipit magnam inventore
-                    earum! Voluptatum sunt fugit excepturi animi officia nesciunt, inventore repellat, suscipit unde cum
-                    est praesentium consequuntur reprehenderit expedita.</p>
+                <h2 class="section-heading">Müşteri Yorumları</h2>
+                <div>
+                    <p>“15 yıldır firmamızın neredeyse üretim ile alakalı tüm ihtiyaçlarını Ahmet beyden tedarik
+                        etmekteyiz. Gerek kendisi olsun, gerek çalışanları olsun işinde oldukça başarılılar.”</p>
+                    <p>Gözde Plastik</p>
+                </div>
+
+                <div>
+                    <p>“Ahmet Bey ile tanışıklığımız kurucu ortağı olduğu eski firmasında başladı, işinde ve özünde
+                        güvenilir bir kişilik. Kendisine yeni firmasının hayırlı olmasını, başarılarının devamını
+                        dilerim.”</p>
+                    <p>Titiz Plastik</p>
+                </div>
+
+                <div>
+                    <p>“Ahmet ile tanışmamız küçük bir tartışma ile başladı, teslimatta yaşanan nakliye gecikmesi
+                        yüzünden. İyi ki dediğim olaylardan biridir. Dostluğumuz ve ticaretimiz bakidir. ”</p>
+                    <p>Saurabh Naik & Niche Polymer LLC</p>
+                </div>
             </section>
 
             <section id="contact">
-                <h2>İletişim</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit suscipit magnam inventore
-                    earum! Voluptatum sunt fugit excepturi animi officia nesciunt, inventore repellat, suscipit unde cum
-                    est praesentium consequuntur reprehenderit expedita.</p>
+                <h2 class="section-heading">İletişim</h2>
+
+                <form class="contact-form" onsubmit="">
+                    <div>
+                        <label for="name">Adınız: </label>
+                        <input type="text" name="name">
+                    </div>
+
+                    <div>
+                        <label for="surname">Soyadınız: </label>
+                        <input type="text" name="surname">
+                    </div>
+
+                    <div>
+                        <label for="company-name">Şirket: </label>
+                        <input type="text" name="company-name">
+                    </div>
+
+                    <div>
+                        <label for="message">Mesajınız: </label>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <input type="submit" value="Gönder">
+                </form>
             </section>
         </div>
     </div>

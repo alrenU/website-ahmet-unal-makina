@@ -11,9 +11,6 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
-}
-
-.content-container h2 {
     text-align: center;
 }
 
@@ -24,3 +21,48 @@
 #contact {
     border: 1px solid black;
 }
+
+/* SERVICES */
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .service-container:nth-of-type(1),
+#services .service-container:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
+.section-heading {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width: 200px;
+}
+
+.services-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.icon-caption {
+    font-weight: bold;
+}
+
+.reference-logo {
+    display: block;
+    width: 200px;
+}
+
+.reference-logo:nth-of-type(1),
+.reference-logo:nth-of-type(2),
+.reference-logo:nth-of-type(3),
+.reference-logo:nth-of-type(4) {
+    margin-bottom: 50px;
+}
+
+/* #contact-form {
+    display: flex;
+    flex-direction: column;
+} */

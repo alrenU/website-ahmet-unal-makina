@@ -12,6 +12,7 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    background-color: rgb(230, 230, 230);
 }
 
 p, a {
@@ -25,4 +26,14 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Barlow_Semi_Condensed";
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+* {
+    margin: 0px;
+    padding: 0px;
 }
