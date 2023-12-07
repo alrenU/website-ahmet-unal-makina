@@ -2,15 +2,18 @@
 .background-blur {
     width: 100vw;
     height: 100vh;
+
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: 100vw;
+
     background-color: transparent;
     transition: all 0.3s ease-out;
 }
 
 .background-blur.activated {
     backdrop-filter: blur(2px);
+    left: 0px;
 }
 
 /* BANNER */

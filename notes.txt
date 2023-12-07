@@ -1,2 +1,18 @@
 /*** Notes ***/
 + Do not forget to add hover to the navigation links.
+
+
+
+/*** To-Do ***/
++ Make the header section responsive to the desktop size.
++ Prepare the content.
+  - Plan whatto do and how to do them.
+
+
+
+/*** Contents ***/
++ Hakkımıza
++ Servislerimiz
++ Referanslar
++ Müşteri Yorumları (Testimonials/Reviews)
++ İletişim
