@@ -28,8 +28,7 @@
     align-items: center;
 }
 
-#services .service-container:nth-of-type(1),
-#services .service-container:nth-of-type(2) {
+#services .service-container {
     margin-bottom: 40px;
 }
 
@@ -54,14 +53,42 @@
     width: 200px;
 }
 
-.reference-logo:nth-of-type(1),
-.reference-logo:nth-of-type(2),
-.reference-logo:nth-of-type(3),
-.reference-logo:nth-of-type(4) {
+.reference-logo {
     margin-bottom: 50px;
 }
 
-/* #contact-form {
+/* REFERENCES */
+.testimonial {
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px #3b3b3b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* .comment-container {
     display: flex;
-    flex-direction: column;
 } */
+
+.quote-icon {
+    width: 50px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    shape-outside: circle(25%);
+}
+
+.testimonal-comment {
+    text-align: left;
+}
+
+.testimonial-name {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* CONTACT */
+.location {
+    width: 100%;
+    height: 200px;
+}
