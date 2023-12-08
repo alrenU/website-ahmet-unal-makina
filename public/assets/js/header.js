@@ -13,8 +13,8 @@ window.addEventListener("scroll", () => {
 });
 
 const changeElemStyleAfterScroll = (scrollPositionY) => {
-    if(scrollPositionY > 100) {
-        if(!changedStyle) {
+    if (scrollPositionY > 100) {
+        if (!changedStyle) {
             navWrapperElem.classList.add("scrolled");
             logoElem.classList.add("scrolled");
 
@@ -54,7 +54,7 @@ hamburgerMenuElem.addEventListener("click", () => {
     addOrRemoveAfterScrollStyle();
 });
 
-for(let i = 0; i < navLinkElems.length; i++) {
+for (let i = 0; i < navLinkElems.length; i++) {
     navLinkElems[i].addEventListener("click", () => {
         hamburgerMenuElem.classList.remove("activated");
         navElem.classList.remove("activated");
@@ -63,9 +63,23 @@ for(let i = 0; i < navLinkElems.length; i++) {
 }
 
 const addOrRemoveAfterScrollStyle = () => {
-    if(hamburgerMenuElem.classList.contains("activated")) {
+    if (hamburgerMenuElem.classList.contains("activated")) {
         changeElemStyleAfterScroll(150);
     } else {
         changeElemStyleAfterScroll(window.scrollY);
     }
 }
+
+// Make language cohices syncronized for both desktop and mobile.
+const langMobileElem = document.querySelector("#select-language-mobile");
+const langDesktopElem = document.querySelector("#select-language-desktop");
+
+langMobileElem.addEventListener("change", function () {
+    langDesktopElem.value = this.value;
+    console.log(this.value);
+});
+
+langDesktopElem.addEventListener("change", function () {
+    langMobileElem.value = this.value;
+    console.log(this.value);
+});
