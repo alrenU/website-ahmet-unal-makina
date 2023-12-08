@@ -83,3 +83,48 @@ langDesktopElem.addEventListener("change", function () {
     langMobileElem.value = this.value;
     console.log(this.value);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    let imgIndex = 0;
+
+    let bannerImagesContainer = document.querySelector(".banner-images");
+    let images = document.querySelectorAll(".banner-img");
+
+    let imageSelectors = document.querySelectorAll(".img-selector");
+    imageSelectors[0].style.backgroundColor = "rgb(255, 255, 255)";
+
+    for(let i = 0; i < imageSelectors.length; i++){
+        imageSelectors[i].addEventListener("click", () => {
+            showSelectedImage(i);
+        });
+    }
+
+    const handleNextImage = () => {
+        updateIndex((imgIndex + 1) % images.length);
+
+        updateBannerImage();
+    };
+
+    const updateIndex = (newIndex) => {
+        imageSelectors[imgIndex].style.backgroundColor = "rgb(0, 0, 0)";
+        imgIndex = newIndex;
+        imageSelectors[imgIndex].style.backgroundColor = "rgb(255, 255, 255)";
+    }
+
+    const showSelectedImage = (index) => {
+        updateIndex(index);
+
+        updateBannerImage();
+    };
+
+    const updateBannerImage = () => {
+        let displacement = -imgIndex * (100 / images.length); 
+        bannerImagesContainer.style.transform = 'translateX(' + displacement + '%)';
+    };
+
+    let interval = setInterval(handleNextImage, 5000);
+
+    window.addEventListener('beforeunload', function() {
+        clearInterval(interval);
+    });
+})

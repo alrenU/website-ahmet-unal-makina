@@ -18,22 +18,30 @@
 
 /* BANNER */
 .banner {
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     height: 100vh;
     height: 100svh;
     
     overflow: hidden;
     position: relative;
     box-shadow: 0px 2px 20px #3b3b3b;
-    z-index: -1;
+    /* z-index: -1; */
+}
+
+.banner-images{
+    display: flex;
+    transition: transform 0.5s ease;
+
+    width: 300%;
+    height: 100%;
 }
 
 .banner img {
-    width: 100%;
+    width: 33.33%;
     height: 100%;
 
     object-fit: cover;
-    object-position: center;
 }
 
 .overlay {
@@ -67,6 +75,8 @@
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
     box-shadow: 0px 2px 20px #3b3b3b;
+
+    cursor: pointer;
 }
 
 /* HAMBURGER MENU */
