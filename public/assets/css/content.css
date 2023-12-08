@@ -17,7 +17,6 @@
 #about-us,
 #services,
 #references,
-#testimonials,
 #contact {
     border: 1px solid black;
 }
@@ -40,7 +39,7 @@
     width: 200px;
 }
 
-.services-icon {
+.svg-icon {
     display: block;
     width: 100px;
     height: 100px;

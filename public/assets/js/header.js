@@ -3,6 +3,7 @@ const navWrapperElem = document.querySelector(".navigation-wrapper");
 const logoElem = document.querySelector(".logo");
 const barElems = document.querySelectorAll(".bar");
 const hamburgerMenuElem = document.querySelector(".hamburger-menu");
+const languageSelectionCont = document.querySelector(".language-selection-container");
 
 let changedStyle = false;
 
@@ -21,6 +22,7 @@ const changeElemStyleAfterScroll = (scrollPositionY) => {
                 element.classList.add("scrolled");
             });
 
+            languageSelectionCont.classList.add("scrolled");
             changedStyle = true;
         }
     } else {
@@ -32,6 +34,7 @@ const changeElemStyleAfterScroll = (scrollPositionY) => {
                 element.classList.remove("scrolled");
             });
 
+            languageSelectionCont.classList.remove("scrolled");
             changedStyle = false;
         }
     }

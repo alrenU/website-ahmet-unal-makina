@@ -67,6 +67,40 @@
     box-shadow: 0px 2px 20px #3b3b3b;
 }
 
+/* HAMBURGER MENU */
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 2px;
+
+    box-shadow: 2px 2px 10px black;
+    background-color: black;
+    transition: all 0.3s ease-out;
+}
+
+.bar.scrolled {
+    background-color: white;
+}
+
+.hamburger-menu.activated .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu.activated .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.activated .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
 /* NAVIGATION */
 .navigation-wrapper {
     width: 100%;
@@ -140,38 +174,20 @@
     color: white;
 }
 
-/* HAMBURGER MENU */
-.hamburger-menu {
+/* LANGUAGE SELECTION */
+.language-selection-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 6px;
-    cursor: pointer;
+    align-items: center;
 }
 
-.bar {
+.language-selection-container.scrolled {
+    filter: invert(100%);
+}
+
+.world-icon {
     width: 30px;
-    height: 2px;
-
-    box-shadow: 2px 2px 10px black;
-    background-color: black;
-    transition: all 0.3s ease-out;
-}
-
-.bar.scrolled {
-    background-color: white;
-}
-
-.hamburger-menu.activated .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger-menu.activated .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger-menu.activated .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    height: 30px;
+    margin-right: 10px;
 }
 
 
@@ -180,6 +196,10 @@
 @media screen and (min-width: 1024px) {
     .hamburger-menu {
         display: none;
+    }
+
+    .navigation-wrapper.scrolled a {
+        color: white;
     }
 
     .navigation {
@@ -205,8 +225,8 @@
     .navigation a {
         color: black;
     }
-    
-    .navigation-wrapper.scrolled a {
-        color: white;
-    }
+
+    /* .language-selection-container {
+        margin-left: 50px;
+    } */
 }
