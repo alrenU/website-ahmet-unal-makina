@@ -5,8 +5,8 @@ const path = require("path");
 
 app.use("/public", express.static(process.cwd() + "/public"));
 
-app.get(["/", "/staticProductPage.html"], (req, res) => {
-  res.sendFile(path.join(process.cwd() + "/public/staticProductPage.html"));
+app.get(["/", "/footer.html"], (req, res) => {
+  res.sendFile(path.join(process.cwd() + "/public/footer.html"));
 });
 
 app.listen(port, () => {
