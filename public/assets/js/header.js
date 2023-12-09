@@ -90,6 +90,7 @@ langDesktopElem.addEventListener("change", function () {
     console.log(this.value);
 });
 
+// Banner carousel.
 document.addEventListener("DOMContentLoaded", () => {
     let imgIndex = 0;
 
@@ -133,4 +134,4 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener('beforeunload', function() {
         clearInterval(interval);
     });
-})
+});
