@@ -3,7 +3,7 @@ const navWrapperElem = document.querySelector(".navigation-wrapper");
 const logoElem = document.querySelector(".logo");
 const barElems = document.querySelectorAll(".bar");
 const hamburgerMenuElem = document.querySelector(".hamburger-menu");
-const languageSelectionCont = document.querySelector(".language-selection-container");
+const languageSelectionCont = document.querySelectorAll(".language-selection-container");
 
 let changedStyle = false;
 
@@ -22,7 +22,10 @@ const changeElemStyleAfterScroll = (scrollPositionY) => {
                 element.classList.add("scrolled");
             });
 
-            languageSelectionCont.classList.add("scrolled");
+            languageSelectionCont.forEach((element) => {
+                element.classList.add("scrolled");
+            });
+
             changedStyle = true;
         }
     } else {
@@ -34,7 +37,10 @@ const changeElemStyleAfterScroll = (scrollPositionY) => {
                 element.classList.remove("scrolled");
             });
 
-            languageSelectionCont.classList.remove("scrolled");
+            languageSelectionCont.forEach((element) => {
+                element.classList.remove("scrolled");
+            });
+
             changedStyle = false;
         }
     }
@@ -87,7 +93,7 @@ langDesktopElem.addEventListener("change", function () {
 document.addEventListener("DOMContentLoaded", () => {
     let imgIndex = 0;
 
-    let bannerImagesContainer = document.querySelector(".banner-images");
+    let bannerImagesContainer = document.querySelector(".banners");
     let images = document.querySelectorAll(".banner-img");
 
     let imageSelectors = document.querySelectorAll(".img-selector");

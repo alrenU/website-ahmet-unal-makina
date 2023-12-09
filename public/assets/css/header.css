@@ -17,7 +17,7 @@
 }
 
 /* BANNER */
-.banner {
+.banner-container {
     width: 100%;
     max-width: 100vw;
     height: 100vh;
@@ -26,22 +26,21 @@
     overflow: hidden;
     position: relative;
     box-shadow: 0px 2px 20px #3b3b3b;
-    /* z-index: -1; */
 }
 
-.banner-images{
+.banner-container img {
+    width: 33.33%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.banners{
     display: flex;
     transition: transform 0.5s ease;
 
     width: 300%;
     height: 100%;
-}
-
-.banner img {
-    width: 33.33%;
-    height: 100%;
-
-    object-fit: cover;
 }
 
 .overlay {
@@ -52,7 +51,7 @@
     height: 100%;
 
     background: linear-gradient(#9198e5, #ba997f);
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .banner-img-selector {
@@ -228,6 +227,7 @@
         display: block;
         opacity: 1;
 
+        padding: 0px;
         width: 550px;
         height: auto;
         background-color: transparent;
