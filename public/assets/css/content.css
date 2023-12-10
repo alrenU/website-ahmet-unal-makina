@@ -1,16 +1,15 @@
 .content-wrapper {
     display: flex;
     justify-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content-container {
     width: 300px;
     height: auto;
     border: 1px solid black;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 20px;
     text-align: center;
 }
 
@@ -19,29 +18,59 @@
 #references,
 #contact {
     border: 1px solid black;
-}
-
-/* SERVICES */
-.service-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#services .service-container {
-    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-heading {
     border-bottom: 2px solid black;
     padding-bottom: 5px;
     width: 200px;
+    margin-bottom: 30px;
 }
 
-.svg-icon {
-    display: block;
+/* ABOUT US */
+#about-us a {
+    text-decoration: underline;
+}
+
+/* SERVICES */
+#services .description {
+    margin-bottom: 30px;
+}
+
+#services .service-container {
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-container div {
     width: 100px;
     height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 50%;
+    z-index: -2;
+
+    margin-bottom: 20px;
+    box-shadow: 3px 5px 8px #3b3b3b;
+}
+
+.service-svg-icon {
+    width: 60px;
+    height: 60px;
+
+    filter: invert(100%);
+    z-index: -1;
 }
 
 .icon-caption {
@@ -66,10 +95,6 @@
     padding: 10px;
 }
 
-/* .comment-container {
-    display: flex;
-} */
-
 .quote-icon {
     width: 50px;
     float: left;
@@ -88,6 +113,35 @@
 }
 
 /* CONTACT */
+.contact-info-container {
+    height: 200px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-svg-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
 .location {
     width: 100%;
     height: 200px;

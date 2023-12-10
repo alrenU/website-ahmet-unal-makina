@@ -8,6 +8,11 @@
     src: url("../fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf");
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -32,13 +37,4 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-section h2 {
-    margin-bottom: 30px;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
 }

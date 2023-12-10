@@ -78,6 +78,31 @@
     cursor: pointer;
 }
 
+.banner-message-container {
+    width: 300px;
+
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(3px);
+    transition: all 0.3s ease-out;
+}
+
+.banner-message {
+    text-align: center;
+}
+
+.banner-message h1 {
+    margin-bottom: 20px;
+}
+
 /* HAMBURGER MENU */
 .hamburger-menu {
     display: flex;
@@ -130,12 +155,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(3px);
 }
 
 .navigation-wrapper.scrolled {
     height: 80px;
     background-color: #142843;
     box-shadow: 0px 2px 20px #3b3b3b;
+    backdrop-filter: blur(0px);
 }
 
 .logo {
@@ -211,7 +238,6 @@
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1024px) {
-
     /* HAMBURGER MENU */
     .hamburger-menu {
         display: none;
@@ -247,45 +273,17 @@
         color: black;
     }
 
-    .banner-message-wrapper {
-        width: 600px;
-        height: 250px;
-
-        /* background-color: black; */
-
-        position: absolute;
-        bottom: 10vw;
-        right: 10vh;
-    }
-
-    .layer-relative {
-        position: relative;
-        width: 100%;
-        height: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .banner-message-container {
         width: 500px;
-        z-index: 1;
-        transition: all 0.3s ease-out;
+
+        bottom: 10vw;
+        right: 10vh;
+        padding: 40px;
+        transform: none;
     }
 
-    .gray-overlay {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        /* background: radial-gradient(rgb(28, 104, 179), rgb(84, 131, 178)); */
-
-        backdrop-filter: blur(10px);
-        opacity: 0.6;
+    .banner-message {
+        text-align: left;
     }
 
     /* LANGUAGE SELECTION */
