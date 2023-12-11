@@ -82,8 +82,8 @@
     width: 300px;
 
     position: absolute;
-    top: 50vh;
-    left: 50vw;
+    bottom: 50vh;
+    right: 50vw;
     transform: translate(-50%, -50%);
     padding: 40px;
 
@@ -276,8 +276,9 @@
     .banner-message-container {
         width: 500px;
 
-        bottom: 10vw;
-        right: 10vh;
+        bottom: 100px;
+        right: 100px;
+
         padding: 40px;
         transform: none;
     }
