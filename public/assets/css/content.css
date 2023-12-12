@@ -23,10 +23,9 @@
 }
 
 .section-heading {
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-    width: 200px;
     margin-bottom: 30px;
+    font-size: 50px;
+    color: #3D5CD1;
 }
 
 /* ABOUT US */
@@ -77,22 +76,62 @@
     font-weight: bold;
 }
 
-.reference-logo {
-    display: block;
-    width: 200px;
-}
-
-.reference-logo {
-    margin-bottom: 50px;
-}
-
 /* REFERENCES */
+#references {
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+
+.references-logo-container {
+    width: 100%;
+    margin: 2% auto;
+
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    flex-wrap: wrap;
+}
+
+
+.reference-logo {
+    margin: 2% 3%;
+    width: 175px;
+}
+
+.testimonials-container {
+    width: 100%;
+    margin: 2% auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 .testimonial {
-    margin-bottom: 50px;
-    box-shadow: 5px 5px 5px #3b3b3b;
-    border-radius: 15px;
+    flex: 29.5%;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
+    margin: 10px 20px;
+    padding: 10px; 
+    min-width: 265px;
+
     box-sizing: border-box;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f1f1f1;
+}
+
+.comment-container {
+    margin-bottom: auto;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 42px;
+
 }
 
 .quote-icon {
@@ -104,12 +143,51 @@
 }
 
 .testimonal-comment {
-    text-align: left;
+    /* text-align: left; */
+    line-height: 30px;
+
+}
+
+blockquote::before {
+    content: "❝";
+    font-size: 42px;
+    position: relative;
+    color: #3D5CD1;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: "❞";
+    font-size: 42px;
+    position: relative;
+    color: #3D5CD1;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.testimoial-name-container {
+    margin-top: 25px;
+    display: flex;
 }
 
 .testimonial-name {
-    margin-top: 20px;
+    font-weight: bolder;
+    color: #3D5CD1;
+    font-size: 20px;
+    line-height: 0.6em;
+
+    flex-wrap: nowrap;
+}
+
+.testimonial-company {
     font-weight: bold;
+    font-size: 16px;
+    flex-wrap: nowrap;
+    line-height: 1em;
+
 }
 
 /* CONTACT */
