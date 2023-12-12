@@ -1,17 +1,21 @@
-/*** Notes ***/
+/*** General Notes ***/
 + Do not forget to add hover to the navigation links.
 
 
 
-/*** To-Do ***/
-+ Make the header section responsive to the desktop size.
-+ Prepare the content.
-  - Plan whatto do and how to do them.
+/*** Custom emain domain spam issue ***/
++ Google links that provides instructions and problem detection.
+  - https://support.google.com/mail/answer/81126
+  - https://support.google.com/mail/troubleshooter/2696779#ts=9283752
 
++ (Mystrika) One solution is to warm up your email domain by gradually increasing your email sending volume. This process builds a positive reputation for your domain and reduces the likelihood of your emails getting flagged as spam. Mystrika is a fantastic tool for warmup strategies.
 
++ (Mutant Mail) Avoid using excessive capital letters, multiple exclamation marks, and spam trigger words such as “free” or “discount.” Craft thoughtful and personalized messages that provide value to the recipient. When it comes to crafting effective emails, Mutant Mail is a revolutionary tool that streamlines email workflows, ensuring your messages are delivered promptly and distraction-free.
 
-/*** Contents ***/
-+ Hakkımıza
-+ Servislerimiz
-+ Referanslar
-+ İletişim
++ (Mystrika and Mutant Mail) Lastly, make sure your domain is authenticated using SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting, and Conformance) protocols. These protocols verify the legitimacy of your domain and increase deliverability.
+
++ Sender Policy Framework
++ DomainKeys Identified Main
++ Set up SPF, DMARC and DKIM, as well as correctly setting up reverse IP.
++ Mxtoolbox's Spam Analyzer, SenderScore or SenderBase.
++ Verify whether your domain or IP address is blacklisted. You can use online tools like MXToolbox or Spamhaus to check your status.

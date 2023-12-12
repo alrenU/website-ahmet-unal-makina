@@ -9,6 +9,7 @@
 
     background-color: transparent;
     transition: all 0.3s ease-out;
+    z-index: 1;
 }
 
 .background-blur.activated {
@@ -156,6 +157,7 @@
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(3px);
+    z-index: 2;
 }
 
 .navigation-wrapper.scrolled {

@@ -64,6 +64,7 @@ for (let i = 0; i < navLinkElems.length; i++) {
     navLinkElems[i].addEventListener("click", () => {
         hamburgerMenuElem.classList.remove("activated");
         navElem.classList.remove("activated");
+        backgroundBlurElem.classList.remove("activated");
         addOrRemoveAfterScrollStyle();
     });
 }
