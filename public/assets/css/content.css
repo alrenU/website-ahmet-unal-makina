@@ -2,14 +2,13 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 .content-container {
     width: 80%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -17,9 +16,9 @@
 #services,
 #references,
 #contact {
-    border: 1px solid black;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #fff;
 }
 
 .section-heading {
@@ -34,55 +33,74 @@
 }
 
 /* SERVICES */
-#services .description {
-    margin-bottom: 30px;
+.servise-explanation {
+    width: 80%;
+    display: flex;
+    text-align: center;
 }
 
-#services .service-container {
-    margin-bottom: 40px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 5%;
 }
 
 .service-container {
+    flex: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 20px;
 }
 
-.service-container div {
-    width: 100px;
-    height: 100px;
 
+.section-heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: #1E68CB
+}
+
+.icon-container {
     display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #1E68CB;
+    border-radius: 100%;
+
     justify-content: center;
     align-items: center;
-
-    background-color: black;
-    border-radius: 50%;
-    z-index: -2;
-
-    margin-bottom: 20px;
-    box-shadow: 3px 5px 8px #3b3b3b;
 }
 
-.service-svg-icon {
-    width: 60px;
-    height: 60px;
+.icon-content {
+    margin: 5%;
+    text-align: center;
+}
 
+.svg-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
     filter: invert(100%);
-    z-index: -1;
 }
 
 .icon-caption {
-    font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.reference-logo {
+    display: block;
+    width: 200px;
+}
+
+.reference-logo {
+    margin-bottom: 50px;
 }
 
 /* REFERENCES */
-#references {
-    padding: 0;
-    background-color: #fff;
-    border: none;
-}
-
 .references-logo-container {
     width: 100%;
     margin: 2% auto;
@@ -191,12 +209,6 @@ blockquote::after {
 }
 
 /* CONTACT */
-#contact {
-    padding: 0;
-    background-color: #fff;
-    border: none;
-}
-
 .contact-container {
     width: 100%;
     margin: 2% auto;
@@ -299,7 +311,32 @@ input[type="submit"]:hover {
     text-align: left;
 }
 
-.location {
+.location-container {
     width: 100%;
-    height: 200px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #3D5CD1;
+}
+
+.location {
+    width: 90%;
+    height: 300px;
+    border: none;
+
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+/**/
+
+.blue-seperation-line {
+    width: 100%;
+    height: 20px;
+    background-color: #3D5CD1;
+}
+
+.dark-blue-seperation-line {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(13, 25, 36);
 }
