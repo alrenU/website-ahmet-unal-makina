@@ -30,11 +30,17 @@ footer h2 {
     align-items: center;
 }
 
-.logo-container {
+/* LOGO AND SOCIAL MEDIA */
+.logo-and-social-media {
+    margin-bottom: 40px;
+}
+
+.logo-container,
+.follow-us {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .footer-content {
@@ -62,7 +68,8 @@ footer h2 {
     align-items: center;
 }
 
-.footer-contact-info img {
+.footer-contact-info img, 
+.follow-us img {
     filter: invert(100%);
     width: 25px;
     height: 25px;
@@ -94,9 +101,13 @@ footer h2 {
         align-items: start;
     }
 
-    .logo-container {
-        display: block;
+    .logo-and-social-media {
         margin-bottom: 0px;
+    }
+
+    .logo-container,
+    .follow-us {
+        display: block;
     }
 
     .footer-content {
