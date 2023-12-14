@@ -242,6 +242,7 @@
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1024px) {
+
     /* HAMBURGER MENU */
     .hamburger-menu {
         display: none;

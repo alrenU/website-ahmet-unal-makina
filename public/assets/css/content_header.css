@@ -1,0 +1,24 @@
+/* CONTENT HEADER */
+
+/*
+This section is used where there is no need for banner.
+For example, in case of 404 page, there is no need for banner and just header will be needed.
+*/
+
+.navigation-wrapper {
+    background-color: #142843;
+    box-shadow: 0px 2px 20px #3b3b3b;
+}
+
+.logo,
+.navigation a {
+    color: white;
+}
+
+.language-selection-container {
+    filter: invert(100%);
+}
+
+.bar {
+    background-color: white;
+}
