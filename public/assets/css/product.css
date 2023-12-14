@@ -8,7 +8,6 @@ body {
 .container {
     width: 80%;
     margin: 2% auto;
-    overflow: hidden;
 }
 
 .product {
@@ -21,38 +20,30 @@ body {
 }
 
 .product img {
-    max-width: 100%;
-    max-height: 300px; 
+    width: auto;
     height: auto;
-    border-radius: 8px;
+    max-width: 100%;
+    max-height: 500px;
     justify-content: center;
+    border-radius: 12px;
+    object-fit: contain;
+
+    transition: 0.5s ease;
 }
 
-.product h2 {
+.product img:hover {
+    transform: scale(1.15);
+}
+
+.product h1 {
     flex-basis: 100%;
     text-align: left;
-    margin-bottom: 1rem;
-    margin-top: 0;
+    margin: 2rem auto;
+    font-size: 42px;
 }
 
-.right-container {
-    flex: auto;
-}
-
-.image-container {
-    max-height: 300px; 
-    border: solid 1px black;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.left-container {
-    flex: 1 1 calc(60% - 1rem);
-    margin-left: 1rem;
-}
-
-.product p {
-    color: #666;
+.product h3 {
+    margin-bottom: 10px;
 }
 
 .product-details ul {
@@ -65,21 +56,44 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.left-container {
+    flex: 1 1 calc(60% - 1rem);
+    margin-left: 1rem;
+}
+
+.category-text {
+    color: #3D5CD1;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.right-container {
+    flex: auto;
+}
+
+
 .contact-button {
     text-transform: uppercase;
     font-size: 24px;
     margin-top: 1rem;
-    background-color: rgb(53, 96, 252);
+    background-color: #3D5CD1;
     color: white;
     border-radius: 8px;
-    width: 100%;
+    width: 200px;
     height: 3rem;
     border-width: 0.5px;
     cursor: pointer;
+    border: none;
+    box-shadow: 0 8px 16px 0 #2071cd3b, 0 6px 20px 0 #2071cd3b;
 }
 
 .contact-button:hover {
-    background-color: rgb(81, 117, 247);
+    background-color: #2045cd;
+    box-shadow: 0 8px 16px 0 #2071cd71, 0 6px 20px 0 #2071cd71;
 }
 
 .read-more {
@@ -87,4 +101,11 @@ body {
     cursor: pointer;
     margin-top: 0;
     font-size: 18px;
+}
+
+.grey-seperation-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 1rem auto;
 }
