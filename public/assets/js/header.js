@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!(bannerImagesContainer === null)) {
         let images = document.querySelectorAll(".banner-img");
+        let bannerTexts = document.querySelectorAll(".banner-message");
 
         let imageSelectors = document.querySelectorAll(".img-selector");
         imageSelectors[0].style.backgroundColor = "rgb(255, 255, 255)";
@@ -12,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < imageSelectors.length; i++) {
             imageSelectors[i].addEventListener("click", () => {
                 showSelectedImage(i);
+                updateBannerText(i);
+                resetTimeInterval();
             });
         }
 
@@ -19,13 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
             updateIndex((imgIndex + 1) % images.length);
 
             updateBannerImage();
+            updateBannerText();
         };
 
         const updateIndex = (newIndex) => {
             imageSelectors[imgIndex].style.backgroundColor = "rgb(0, 0, 0)";
             imgIndex = newIndex;
             imageSelectors[imgIndex].style.backgroundColor = "rgb(255, 255, 255)";
-        }
+        };
 
         const showSelectedImage = (index) => {
             updateIndex(index);
@@ -38,7 +42,32 @@ document.addEventListener("DOMContentLoaded", () => {
             bannerImagesContainer.style.transform = 'translateX(' + displacement + '%)';
         };
 
+        const updateBannerText = (selectedBannerTextIndex = null) => {
+            let availableBannerTexts = bannerTexts.length;
+            let currentlyDisplayedIndex = 0;
+
+            for (let i = 0; i < availableBannerTexts; i++) {
+                if (bannerTexts[i].classList.contains("display-message")) {
+                    currentlyDisplayedIndex = i;
+                    break;
+                }
+            }
+
+            if (selectedBannerTextIndex === null) {
+                bannerTexts[currentlyDisplayedIndex].classList.remove("display-message");
+                bannerTexts[(currentlyDisplayedIndex + 1) % availableBannerTexts].classList.add("display-message");
+            } else {
+                bannerTexts[currentlyDisplayedIndex].classList.remove("display-message");
+                bannerTexts[(selectedBannerTextIndex) % availableBannerTexts].classList.add("display-message");
+            }
+        }
+
         let interval = setInterval(handleNextImage, 5000);
+
+        const resetTimeInterval = () => {
+            clearInterval(interval);
+            interval = setInterval(handleNextImage, 5000);
+        }
 
         window.addEventListener('beforeunload', function () {
             clearInterval(interval);

@@ -97,11 +97,25 @@
 }
 
 .banner-message {
+    width: 300px;
+
+    position: absolute;
+    left: 150vw;
+    bottom: 50vh;
+    transform: translate(-50%, 50%);
+    padding: 30px;
+
     text-align: center;
+    backdrop-filter: blur(3px);
+    transition: all 0.4s ease-out;
 }
 
 .banner-message h1 {
     margin-bottom: 20px;
+}
+
+.display-message {
+    left: 50vw;
 }
 
 /* HAMBURGER MENU */
@@ -278,18 +292,18 @@
         color: black;
     }
 
-    .banner-message-container {
+    .banner-message {
         width: 500px;
-
-        bottom: 100px;
-        right: 100px;
-
-        padding: 40px;
+        text-align: left;
         transform: none;
+
+        left: auto;
+        right: -40vw;
+        bottom: 100px;
     }
 
-    .banner-message {
-        text-align: left;
+    .display-message {
+        right: 100px;
     }
 
     /* LANGUAGE SELECTION */
