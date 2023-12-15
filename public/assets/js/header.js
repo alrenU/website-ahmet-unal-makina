@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Banner carousel.
     let imgIndex = 0;
-
     let bannerImagesContainer = document.querySelector(".banners");
 
-    if (!bannerImagesContainer === null) {
+    if (!(bannerImagesContainer === null)) {
         let images = document.querySelectorAll(".banner-img");
 
         let imageSelectors = document.querySelectorAll(".img-selector");
