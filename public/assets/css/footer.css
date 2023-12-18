@@ -67,8 +67,7 @@ footer h2 {
     align-items: center;
 }
 
-.footer-contact-info li:nth-of-type(1),
-.footer-contact-info li:nth-of-type(2) {
+.footer-contact-info li:not(:last-of-type) {
     margin-block-end: 20px;
 }
 

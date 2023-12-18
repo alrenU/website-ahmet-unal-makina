@@ -195,7 +195,6 @@ blockquote::after {
 
 .contact-info-and-form {
     width: 100%;
-    height: 400px;
 
     display: flex;
     flex-direction: column;
@@ -205,9 +204,12 @@ blockquote::after {
     text-align: center;
 }
 
+.contact-info li:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
 .contact-info ul {
     list-style: none;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -238,7 +240,6 @@ blockquote::after {
     justify-content: space-between;
 
     width: 100%;
-    height: 100%;
 }
 
 input[type="text"],
@@ -248,9 +249,9 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #F2F1F9;
     border-radius: 4px;
-    margin-top: 5px;
     font-size: 16px;
     background-color: #F2F1F9;
+    margin-bottom: 15px;
 }
 
 textarea {
@@ -336,5 +337,10 @@ iframe {
     #contact .container hr {
         margin-inline: 30px;
         margin-block: 0px;
+    }
+
+    input[type="text"],
+    textarea {
+        margin-bottom: 0px;
     }
 }
