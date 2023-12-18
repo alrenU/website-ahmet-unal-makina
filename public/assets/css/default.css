@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "Barlow_Semi_Condensed";
-    src: url("../fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf");
+    font-family: "Nunito";
+    src: url("../fonts/Nunito/Nunito-Medium.ttf");
 }
 
 * {
@@ -31,7 +31,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Barlow_Semi_Condensed";
+    font-family: "Nunito";
 }
 
 section {
