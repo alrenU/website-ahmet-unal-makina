@@ -60,12 +60,16 @@ footer h2 {
 /* FOOTER CONTACT INFO */
 .footer-contact-info {
     width: 300px;
-    height: 180px;
 }
 
 .footer-contact-info li {
     display: flex;
     align-items: center;
+}
+
+.footer-contact-info li:nth-of-type(1),
+.footer-contact-info li:nth-of-type(2) {
+    margin-block-end: 20px;
 }
 
 .footer-contact-info img, 
@@ -74,6 +78,11 @@ footer h2 {
     width: 25px;
     height: 25px;
     margin-right: 10px;
+}
+
+.footer-contact-info li div {
+    display: flex;
+    flex-direction: column;
 }
 
 /* COPYRIGHT */
