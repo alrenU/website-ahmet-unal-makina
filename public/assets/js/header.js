@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add background to the header after scrolling.
     const navWrapperElem = document.querySelector(".navigation-wrapper");
     const logoElem = document.querySelector(".logo");
-    const barElems = document.querySelectorAll(".bar");
     const hamburgerMenuElem = document.querySelector(".hamburger-menu");
     const languageSelectionCont = document.querySelectorAll(".language-selection-container");
 
@@ -96,10 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 navWrapperElem.classList.add("scrolled");
                 logoElem.classList.add("scrolled");
 
-                barElems.forEach(element => {
-                    element.classList.add("scrolled");
-                });
-
                 languageSelectionCont.forEach((element) => {
                     element.classList.add("scrolled");
                 });
@@ -110,10 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (changedStyle && !hamburgerMenuElem.classList.contains("activated")) {
                 navWrapperElem.classList.remove("scrolled");
                 logoElem.classList.remove("scrolled");
-
-                barElems.forEach(element => {
-                    element.classList.remove("scrolled");
-                });
 
                 languageSelectionCont.forEach((element) => {
                     element.classList.remove("scrolled");
