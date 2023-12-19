@@ -13,9 +13,9 @@
 }
 
 .background-blur.activated {
-    backdrop-filter: blur(1px);
-    /* background-color: #2b2929;
-    opacity: 0.5; */
+    /* backdrop-filter: blur(1px); */
+    background-color: #323232;
+    opacity: 0.4;
     left: 0px;
 }
 
