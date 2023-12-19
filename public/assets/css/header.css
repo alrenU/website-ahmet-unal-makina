@@ -1,5 +1,5 @@
 /* BACKGROUND BLUR */
-.background-blur {
+.mobile-nav-background-layer {
     width: 100vw;
     height: 100vh;
 
@@ -7,13 +7,11 @@
     top: 0px;
     left: 100vw;
 
-    background-color: transparent;
     transition: all 0.3s ease-out;
     z-index: 1;
 }
 
-.background-blur.activated {
-    /* backdrop-filter: blur(1px); */
+.mobile-nav-background-layer.activated {
     background-color: #323232;
     opacity: 0.4;
     left: 0px;

@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Open and close hamburger menu behaviors.
     const navElem = document.querySelector(".navigation");
     const navLinkElems = document.querySelectorAll(".nav-link");
-    const backgroundBlurElem = document.querySelector(".background-blur");
+    const backgroundBlurElem = document.querySelector(".mobile-nav-background-layer");
 
     hamburgerMenuElem.addEventListener("click", () => {
         hamburgerMenuElem.classList.toggle("activated");
