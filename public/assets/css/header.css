@@ -13,9 +13,9 @@
 }
 
 .background-blur.activated {
-    /* backdrop-filter: blur(1px); */
-    background-color: #2b2929;
-    opacity: 0.5;
+    backdrop-filter: blur(1px);
+    /* background-color: #2b2929;
+    opacity: 0.5; */
     left: 0px;
 }
 
@@ -209,10 +209,6 @@
     color: white;
 }
 
-.logo.scrolled {
-    color: white;
-}
-
 .navigation {
     position: absolute;
     right: -200px;
@@ -285,10 +281,6 @@
     }
 
     /* NAVIGATION */
-    .navigation-wrapper.scrolled a {
-        color: white;
-    }
-
     .navigation {
         position: static;
         display: block;

@@ -78,9 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add background to the header after scrolling.
     const navWrapperElem = document.querySelector(".navigation-wrapper");
-    const logoElem = document.querySelector(".logo");
     const hamburgerMenuElem = document.querySelector(".hamburger-menu");
-    const languageSelectionCont = document.querySelectorAll(".language-selection-container");
 
     let changedStyle = false;
 
@@ -93,23 +91,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (scrollPositionY > 100) {
             if (!changedStyle) {
                 navWrapperElem.classList.add("scrolled");
-                logoElem.classList.add("scrolled");
-
-                languageSelectionCont.forEach((element) => {
-                    element.classList.add("scrolled");
-                });
-
                 changedStyle = true;
             }
         } else {
             if (changedStyle && !hamburgerMenuElem.classList.contains("activated")) {
                 navWrapperElem.classList.remove("scrolled");
-                logoElem.classList.remove("scrolled");
-
-                languageSelectionCont.forEach((element) => {
-                    element.classList.remove("scrolled");
-                });
-
                 changedStyle = false;
             }
         }
