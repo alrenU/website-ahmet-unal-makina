@@ -8,6 +8,16 @@
     src: url("../fonts/Nunito/Nunito-Medium.ttf");
 }
 
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow/Barlow-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
 * {
     margin: 0px;
     padding: 0px;

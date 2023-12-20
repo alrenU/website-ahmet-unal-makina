@@ -153,8 +153,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function caseController(selectedLang) {
-        console.log(clickCounter);
-
         switch (++clickCounter) {
             case 1:
                 [selectedElems, hiddenElems] = trElems[0].classList.contains("selected") ? [trElems, enElems] : [enElems, trElems];

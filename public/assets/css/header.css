@@ -107,9 +107,18 @@
 
     width: 100%;
     height: 100%;
-    background-color: rgb(108 104 45);
-    opacity: 0.7;
+
+    background-image: -webkit-repeating-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 2%, hsla(0, 0%, 100%, .1) 2.5%),
+        -webkit-repeating-linear-gradient(left, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 1%, hsla(0, 0%, 0%, .03) 1.5%),
+        -webkit-repeating-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 0.4%, hsla(0, 0%, 100%, .15) 0.7%),
+
+        linear-gradient(180deg, hsl(0, 0%, 78%) 0%,
+            hsl(0, 0%, 90%) 45%,
+            hsl(0, 0%, 78%) 55%,
+            hsl(0, 0%, 70%) 100%);
+
     border-radius: 50px;
+    /* border-radius: .5em; */
 }
 
 .banner-message>* {
@@ -128,14 +137,18 @@
 
     text-align: center;
     transition: all 0.4s ease-out;
-    text-shadow: 2px 2px 16px black;
-    backdrop-filter: blur(2px);
 
-    border-radius: 30px;
+    border-radius: 50px;
+    color: #333;
+}
+
+.banner-message p {
+    font-family: "Poppins";
 }
 
 .banner-message h1 {
     margin-bottom: 20px;
+    font-family: "Barlow";
 }
 
 .display-message {
