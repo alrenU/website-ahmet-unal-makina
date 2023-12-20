@@ -95,7 +95,6 @@
     margin: 20px 50px;
     gap: 10px;
     padding: 40px 20px 30px;
-    background-color: #1C0060;
     max-width: 250px;
 
     display: flex;
@@ -103,30 +102,65 @@
     align-items: center;
    
     color: #fff;
+    background: linear-gradient(#1C0060, #1C0060 50%, #00D09B 50%, #00D09B);
+    background-size: 100% 200%;
+    transition: background 0.8s;
+}
+
+.service:hover {
+    background-position: 100% 100%;
+}
+
+.service:hover .icon-container{
+    transform: rotateY(180deg);
 }
 
 .icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    text-align: center;
 
     width: 70px;
     height: 70px;
     border-radius: 50%;
 
-    background-color: rgb(13,0,61);;
+    background-color: rgb(13,0,61);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 .icon-container::before {
     position: absolute;
     content: "";
-    top: -5px;
-    bottom: -5px;
-    left: -5px;
-    right: -5px;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
     border-radius: 50px;
     border: 2px dashed white;
+}
+
+.icon-container-front, .icon-container-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+  }
+
+.icon-container-front {
+    background-color: rgb(13,0,61);
+}
+
+.icon-container-back {
+    background-color: #04725A;
+    transform: rotateY(180deg);
 }
 
 .icon-container img {
