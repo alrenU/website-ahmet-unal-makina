@@ -112,7 +112,7 @@
     border-radius: 50px;
 }
 
-.banner-message > * {
+.banner-message>* {
     position: relative;
     display: block;
 }
@@ -249,23 +249,61 @@
 
 /* LANGUAGE SELECTION */
 .language-desktop {
+    position: relative;
     display: none;
 }
 
 .language-mobile {
+    position: relative;
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
 
-.language-selection-container {
-    filter: invert(100%);
+.language-mobile div,
+.language-desktop div {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
-.world-icon {
+.triangular-arrow {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 20px;
+    height: 20px;
+
+    filter: invert(100%);
+    transition: all 0.3s ease-out;
+    opacity: 1;
+}
+
+.tr,
+.en {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    opacity: 1;
+}
+
+.en img,
+.tr img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+.selected {
+    position: static;
+}
+
+.hidden {
+    opacity: 0;
+    top: 0px;
 }
 
 

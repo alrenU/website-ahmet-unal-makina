@@ -136,17 +136,82 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // Make language cohices syncronized for both desktop and mobile.
-    const langMobileElem = document.querySelector("#select-language-mobile");
-    const langDesktopElem = document.querySelector("#select-language-desktop");
+    // Change the website language.
+    let clickCounter = 0;
+    let trElems = document.querySelectorAll(".tr");
+    let enElems = document.querySelectorAll(".en");
+    let arrowElems = document.querySelectorAll(".triangular-arrow");
+    let selectedElems, hiddenElems;
 
-    langMobileElem.addEventListener("change", function () {
-        langDesktopElem.value = this.value;
-        console.log(this.value);
+    // Add event listeners to the languages.
+    trElems.forEach(element => {
+        element.addEventListener("click", () => caseController("tr"));
     });
 
-    langDesktopElem.addEventListener("change", function () {
-        langMobileElem.value = this.value;
-        console.log(this.value);
+    enElems.forEach(element => {
+        element.addEventListener("click", () => caseController("en"));
     });
+
+    function caseController(selectedLang) {
+        console.log(clickCounter);
+
+        switch (++clickCounter) {
+            case 1:
+                [selectedElems, hiddenElems] = trElems[0].classList.contains("selected") ? [trElems, enElems] : [enElems, trElems];
+
+                hiddenElems.forEach(element => {
+                    element.classList.remove("hidden");
+                });
+
+                arrowElems.forEach(element => {
+                    element.classList.remove("hidden");
+                });
+
+                break;
+
+            case 2:
+                clickCounter = 0;
+
+                selectedElems.forEach(element => {
+                    element.classList.remove("selected");
+                });
+
+                switch (selectedLang) {
+                    case "tr":
+                        setNewLanguage(trElems, enElems);
+                        break;
+
+                    case "en":
+                        setNewLanguage(enElems, trElems);
+                        break;
+
+                    default:
+                        console.error("Unknown language. The value must be either tr or en.");
+
+                        // As a fallback set the previous value.
+                        setNewLanguage(selectedElems, hiddenElems);
+                        break;
+                }
+
+                break;
+
+            default:
+                console.error("Unknown case, clickCounter: ", clickCounter, ". It must be either 1 or two.");
+                break;
+        }
+    }
+
+    function setNewLanguage(selectedList, hiddenList) {
+        selectedList.forEach(element => {
+            element.classList.add("selected");
+        });
+
+        hiddenList.forEach(element => {
+            element.classList.add("hidden");
+        });
+
+        arrowElems.forEach(element => {
+            element.classList.add("hidden");
+        });
+    }
 });
