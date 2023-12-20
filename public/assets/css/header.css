@@ -295,6 +295,10 @@
     opacity: 1;
 }
 
+.triangular-arrow.hidden {
+    transform: rotate(-180deg);
+}
+
 .tr,
 .en {
     position: absolute;
