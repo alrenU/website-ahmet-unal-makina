@@ -97,7 +97,7 @@
     transition: all 0.3s ease-out;
 }
 
-.banner-message::before {
+/* .banner-message::before {
     content: "";
     display: block;
 
@@ -118,8 +118,7 @@
             hsl(0, 0%, 70%) 100%);
 
     border-radius: 50px;
-    /* border-radius: .5em; */
-}
+} */
 
 .banner-message>* {
     position: relative;
@@ -137,9 +136,29 @@
 
     text-align: center;
     transition: all 0.4s ease-out;
-
     border-radius: 50px;
-    color: #333;
+
+    color: hsla(0, 0%, 20%, 1);
+    text-shadow: hsla(0, 0%, 40%, .5) 0 -1px 0, hsla(0, 0%, 100%, .6) 0 2px 1px;
+
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: inset hsla(0, 0%, 15%, 1) 0 0px 0px 4px,
+        inset hsla(0, 0%, 15%, .8) 0 -1px 5px 4px,
+        inset hsla(0, 0%, 0%, .25) 0 -1px 0px 7px,
+        inset hsla(0, 0%, 100%, .7) 0 2px 1px 7px,
+
+        hsla(0, 0%, 0%, .15) 0 -5px 6px 4px,
+        hsla(0, 0%, 20%, 0.5) 0 5px 6px 4px;
+
+    background-image: -webkit-repeating-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 2%, hsla(0, 0%, 100%, .1) 2.5%),
+        -webkit-repeating-linear-gradient(left, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 1%, hsla(0, 0%, 0%, .03) 1.5%),
+        -webkit-repeating-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 0.4%, hsla(0, 0%, 100%, .15) 0.7%),
+
+        linear-gradient(180deg, hsl(0, 0%, 78%) 0%,
+            hsl(0, 0%, 90%) 45%,
+            hsl(0, 0%, 78%) 55%,
+            hsl(0, 0%, 70%) 100%);
+
 }
 
 .banner-message p {
