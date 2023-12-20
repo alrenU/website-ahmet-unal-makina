@@ -80,23 +80,6 @@
     cursor: pointer;
 }
 
-.banner-message-container {
-    width: 300px;
-
-    position: absolute;
-    bottom: 50vh;
-    right: 50vw;
-    transform: translate(50%, 50%);
-    padding: 40px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    backdrop-filter: blur(3px);
-    transition: all 0.3s ease-out;
-}
-
 .banner-message>* {
     position: relative;
     display: block;
@@ -146,7 +129,10 @@
     font-family: "Barlow";
 }
 
-.banner-message button {
+.banner-message a {
+    text-align: center;
+    font-size: 14px;
+
     margin-top: 10px;
     background-color: transparent;
     border: none;
