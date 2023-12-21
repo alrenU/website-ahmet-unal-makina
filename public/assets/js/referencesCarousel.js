@@ -3,7 +3,6 @@ const carouselContainer = document.querySelector('.carousel-container');
 const totalItems = document.querySelectorAll('.carousel-item').length;
 let translateXValue = -1800
 
-console.log(carouselContainer.offsetWidth)
 function nextSlide() {
     if (currentIndex < totalItems - 1) {
         currentIndex++;
@@ -25,24 +24,23 @@ function prevSlide() {
 function updateCarousel() {
     translateXValue += 300 /*(carouselContainer.offsetWidth / 4)*/; 
     carouselContainer.style.transform = `translate3d(${translateXValue}px, 0px, 0px)`;
-    console.log(translateXValue)
+
     if(translateXValue === 0 || translateXValue === -3000){
-        carouselContainer.addEventListener(transitionEndEventName, resetCarousel);
+        carouselContainer.addEventListener(transitionEndEventListener, resetCarousel);
     }
 }
 
 function resetCarousel() {
-    console.log(translateXValue)
     carouselContainer.classList.add('notransition-carousel')
     translateXValue = -1500
     carouselContainer.style.transform = `translate3d(${translateXValue}px, 0px, 0px)`;
     carouselContainer.offsetWidth;
     carouselContainer.classList.remove('notransition-carousel');
 
-    carouselContainer.removeEventListener(transitionEndEventName, resetCarousel)
+    carouselContainer.removeEventListener(transitionEndEventListener, resetCarousel)
 }
 
-function getTransitionEndEventName() {
+function getTransitionEndEventListener() {
     var transitions = {
         "transition"      : "transitionend",
         "OTransition"     : "oTransitionEnd",
@@ -57,7 +55,7 @@ function getTransitionEndEventName() {
     }
 }
 
-let transitionEndEventName = getTransitionEndEventName();
+let transitionEndEventListener = getTransitionEndEventListener();
 
 document.addEventListener("DOMContentLoaded", () => {
     let interval = setInterval(updateCarousel, 2000);
