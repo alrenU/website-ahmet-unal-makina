@@ -22,7 +22,7 @@ function prevSlide() {
 }
 
 function updateCarousel() {
-    translateXValue += 300 /*(carouselContainer.offsetWidth / 4)*/; 
+    translateXValue -= 300 /*(carouselContainer.offsetWidth / 4)*/; 
     carouselContainer.style.transform = `translate3d(${translateXValue}px, 0px, 0px)`;
 
     if(translateXValue === 0 || translateXValue === -3000){
