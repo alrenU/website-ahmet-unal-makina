@@ -43,6 +43,11 @@ footer h2 {
     margin-bottom: 30px;
 }
 
+.logo-container p {
+    max-width: 250px;
+    text-align: center;
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -116,6 +121,10 @@ footer h2 {
     .logo-container,
     .follow-us {
         display: block;
+    }
+
+    .logo-container p {
+        text-align: left;
     }
 
     .footer-content {

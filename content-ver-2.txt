@@ -1,3 +1,13 @@
++ Banner
+  - Banner 1: "Kalitede Uzman: Plastik Enjeksiyonun Güvencesi!"
+    Ahmet Ünal Makina Plastik, en üst düzeyde kaliteli plastik enjeksiyon makineleri Vida & Kovan üretimiyle öne çıkıyor. İnovatif çözümlerimizle sektörde güvenilir bir isim olmanın gururunu yaşıyoruz.
+
+  - Banner 2: "Özel Tasarımlar, Güçlü Performans: Ahmet Ünal Makina Plastik Farkı!"
+    Müşteri ihtiyaçlarına uygun özel vida & kovan tasarımlarımızla, Ahmet Ünal Makina Plastik olarak sektörde güvenilir bir çözüm ortağı olmanın haklı gururunu yaşıyoruz. Projelerinizde güçlü performans ve müşteri memnuniyetini vadediyoruz.
+
+  - Banner 3: "Ahmet Ünal Makina Plastik ile Tanışın, Kaliteyi Keşfedin!"
+    Sektördeki deneyimimizle, Ahmet Ünal Makina Plastik olarak müşterilere en iyi hizmeti sunuyoruz. Kaliteli plastik enjeksiyon makineleri ve profesyonel çözümler için bizimle tanışın, farkı keşfedin!
+
 + Vida & Kovan (İhtiyacınıza En Uygun HQ Plastik Ergitme Ocakları)
   - Müşterilerimizin özel ihtiyaçlarına uygun olarak tasarlanan vida ve kovanlarımız, endüstri standartlarına ve müşteri makinelerinin gereksinimlerine tam uyum sağlar.
   - Plastik hammaddelerinin çeşitliliği, kapasiteleri ve özellikleri konusundaki uzmanlığımız sayesinde, yüksek kalitede ve son teknoloji kullanılarak üretilen ürünler sunuyoruz.
