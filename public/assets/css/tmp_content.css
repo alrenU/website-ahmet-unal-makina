@@ -219,7 +219,7 @@
     height: 160px;
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    /* filter: grayscale(70%); */
+    filter: grayscale(70%);
     transition: all 200ms ease;
 }
 
