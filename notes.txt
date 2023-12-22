@@ -42,6 +42,8 @@
   - Sadece ürünlerin fotoğrafları var ve bunlara tıklandığında bu ürünlerin detay sayfası açılıyor. Açılan sayfalarda ekstra bilgi yok.
 
 + Hizmetlerimiz
+  - NOT: Bu kısım orijinal sayfadan türetilebilir.
+    > https://www.ahmetunalmakina.com/hi-zmetleri-mi-z
   - Plastik üretim fabrikanızın her türlü ihtiyacına cevap veriyor, müşterilerimizin zaman ve gereksiz maliyetlerden tasarruf etmelerini sağlıyoruz.
   - Vida & Kovan: İhtiyacınıza uygun vida & kovan tasarlayıp, üretiyoruz.
   - Makine Revizyon: Eski enjeksiyon makinelerinizin tüm onarımlarını yapıyoruz.
@@ -50,7 +52,7 @@
 + Kurumsal
   - İnsan Kaynakları
     > İş başvurularının yapıldığı yer.
-  - Tamamladığımız Bazı İşler
+  - (Çıkartalım) Tamamladığımız Bazı İşler
     > NOT: Buradaki maddelerin içerisinde "hayırlı olması dileğiyle" gibi ibareler var, bence bu yazıları kaldıralım.
     > 01 A Plast: Haitian 250 Kolon Mili ve Burç-Pim Revizyon İşlemi yapıldı. İyi günlerde kullanılması dileğiyle.
     > 02 B Plast: 500'lük Kırma makinesi rotoru sıfırdan yapıldı, mevcut bıçakların bilemesi yapıldı ve rulman yatakları değiştirildi. Yeni sahibine hayırlı olsun.
@@ -65,3 +67,11 @@
   - Uzmanlık Alanımız Vida & Kovan: İşinde uzman makine mühendislerimizce, ihtiyacınıza en uygun optimal düzeyde ocakların tasarımını ve yüksek kalitede imalatını yapıyoruz.
   - Makine Revizyon Hizmeti: Ahmet Ünal Makina Plastik olarak her türlü enjeksiyon makinenizi belki de ilk günkü durumundan bile daha iyi yeniliyoruz.
   - Biliyor muydunuz?: Kurutucu, yükleyici, mikser, kırma makineleri vb. gibi yüzlerce ürün ve yedek parçanın satışını ve servis hizmetini sağlıyoruz.
+
+
+
+/*** Sorulacaklar ***/
++ İş başvuruları yapılabilsin mi.
++ Ürünlerimiz kısmına panel olacak mı?
+  - Panel olacaksa CDN vs. işin içerisine girecek (fiyat açısından), bunlar isteniyor mu?
++ (Belki ChatGPT) Vida ve kovan kısmında içerik düzeltilecek.
