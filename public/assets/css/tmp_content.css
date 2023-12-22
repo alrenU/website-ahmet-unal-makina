@@ -363,8 +363,8 @@ blockquote::after {
 
 .contact-info-and-form {
     width: 100%;
-
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -400,13 +400,14 @@ blockquote::after {
     border: 1px solid black;
     margin-block: 30px;
     margin-inline: 0px;
+    width: 150px;
+    height: 0px;
 }
 
 #contact .container form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     width: 100%;
 }
 
@@ -515,10 +516,7 @@ iframe {
     #contact .container hr {
         margin-inline: 30px;
         margin-block: 0px;
-    }
-
-    input[type="text"],
-    textarea {
-        margin-bottom: 0px;
+        height: 250px;
+        width: 0px;
     }
 }
