@@ -59,7 +59,7 @@
     > 03 C+ Plast
       +> Açıklama yok.
     > 04 Delta Plastik: 12kw sulu tip kalıp şartlandırıcısı tüm mekanik ve elektrik sistemi yenilendi. İyi günlerde kullanınız.
-  - Forum
+  - (Çıkartalım) Forum
     > Bence bu kısmı komple kaldıralım.
 
 + Hizmetlerimiz
@@ -75,3 +75,32 @@
 + Ürünlerimiz kısmına panel olacak mı?
   - Panel olacaksa CDN vs. işin içerisine girecek (fiyat açısından), bunlar isteniyor mu?
 + (Belki ChatGPT) Vida ve kovan kısmında içerik düzeltilecek.
+
+
+
+/*** Güncellenmiş Web Sitesi İçeriği ***/
++ Bir websitesini revize ediyorum ve aşağıdakiler ise eski web sitesi içerikleri. Bu içerikten bu şirketin ne iş yaptığını anlayacağını düşünüyorum. Lütfen bunları düzenleyebilir misin?
+
++ Vida & Kovan (İhtiyacınıza En Uygun HQ Plastik Ergitme Ocakları)
+  - Vida ve kovan çap-boy oranı müşterilerimizin makinelerine uyumlu olarak tasarlanır. Çalıştıkları plastik hammaddesinin cinsi, kapasitesi ve özelliklerine göre verim optimal düzeyde mühendislerimizce belirlenir. Yüksek kalite ve son teknoloji kullanılarak, işinde uzman nitelikli ekibimiz tarafından üretim gerçekleştirilir.
+  - Ø20 - Ø250 mm aralığında max. 3 metre uzunluğunda kovanlar mevcuttur.
+  - İstek ve ihtiyaca uygun DIN 1.4140 veya DIN 1.8550 malzeme seçenekleri bulunmaktadır.
+  - ABS, PP, PE, LDPE, HDPE, PVC ve PET malzeme türlerine uygun özelleştirilmiş vida ve kovan imalatı sağlanır.
+  - Bimetal vida ve kovanlar ile krom kaplamalı vidalar mevcuttur.
+  - Bimetal %30 - %40 - %50 camelyaf'a dayanıklı özel üretilmiş dayanıklı ocaklar stoktan temin edilebilir.
+
++ Makine Revizyonu
+  - Marka bağımsız olarak büyük ve orta ölçekli plastik enjeksiyon makinalarının bütün bakım, onarım, yenileme ve revizyon işlemleri profesyonel kadromuz tarafından gerçekleştirilmektedir.
+  - Mengene revizyonu, sabit-hareketli plaka & burç-pim yenileme gibi işlemler planlı ve düzenli bir şekilde yapılmaktadır.
+  - Kaliteli ürün tercihi, uygun malzeme seçimi, titizlik ve özen prensiplerimiz arasındadır.
+
++ Hizmetlerimiz (Ana Sayfa)
+  - Plastik üretim fabrikanızın her türlü ihtiyacına cevap veriyor, müşterilerimizin zaman ve gereksiz maliyetlerden tasarruf etmelerini sağlıyoruz.
+  - Vida & Kovan: İhtiyacınıza uygun vida & kovan tasarlayıp, üretiyoruz.
+  - Makine Revizyon: Eski enjeksiyon makinelerinizin tüm onarımlarını yapıyoruz.
+  - Teknik Servis: Çeşitli cihazların teknik servisi, bakım ve onarımını sağlıyoruz.
+
++ Hizmetlerimiz (Detay Sayfası)
+  - Uzmanlık Alanımız Vida & Kovan: İşinde uzman makine mühendislerimizce, ihtiyacınıza en uygun optimal düzeyde ocakların tasarımını ve yüksek kalitede imalatını yapıyoruz.
+  - Makine Revizyon Hizmeti: Ahmet Ünal Makina Plastik olarak her türlü enjeksiyon makinenizi belki de ilk günkü durumundan bile daha iyi yeniliyoruz.
+  - Biliyor muydunuz?: Kurutucu, yükleyici, mikser, kırma makineleri vb. gibi yüzlerce ürün ve yedek parçanın satışını ve servis hizmetini sağlıyoruz.
