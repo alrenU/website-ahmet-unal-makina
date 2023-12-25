@@ -1,6 +1,7 @@
 /* GENERAL */
 #about-us,
 #services,
+#why-us,
 #references,
 #testimonials,
 #contact {
@@ -11,6 +12,7 @@
 
 #about-us .container,
 #services .container,
+#why-us .container,
 #references .container,
 #testimonials .container,
 #contact .container {
@@ -56,6 +58,65 @@
 #about-us img {
     margin-top: 50px;
     width: 300px;
+}
+
+/* WHY US */
+#why-us ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#why-us li {
+    background-color: #F1F1E6;
+    padding: 20px 15px 15px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 0px #4a4a4a;
+    position: relative;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;;
+}
+
+#why-us li::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    background-color: #D6A319;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#why-us li:hover {
+    box-shadow: 
+        -7px 3px 5px 0px #8f8f8f,
+        -2px 3px 5px 0px #4a4a4a;
+    transform: perspective(1000px) rotateY(10deg);
+    transform-origin: center;
+}
+
+#why-us .list-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#why-us .list-number {
+    width: 50px;
+    height: 50px;
+    background-color: #00AF8F;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+}
+
+#why-us .list-number {
+    font-size: 25px;
 }
 
 /* SERVICES */
@@ -457,6 +518,7 @@ iframe {
     /* GENERAL */
     #about-us .container,
     #services .container,
+    #why-us .container,
     #references .container,
     #testimonials .container,
     #contact .container {
@@ -479,6 +541,11 @@ iframe {
     #about-us img {
         width: 500px;
         margin-top: 0px;
+    }
+
+    /* WHY US */
+    #why-us ul {
+        flex-direction: row;
     }
 
     /* SERVICE */
