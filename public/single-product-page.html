@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product Page</title>
 
-    <title>Index</title>
-
+    <link rel="stylesheet" href="assets/css/single-product-page.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/content-header.css">
-
-    <link rel="stylesheet" href="assets/css/services.css" />
-
     <link rel="stylesheet" href="assets/css/footer.css" />
 </head>
 
@@ -72,52 +69,29 @@
         </div>
     </header>
 
-    <!-- CONTENT -->
-    <section id="content">
-        <div class="content-header">
-            <h1>Hizmetlerimiz</h1>
-        </div>
-        <div class="page-container">
-            <div class="content-container left">
-                <div class="img-container">
-                    <img src="https://images.pexels.com/photos/259968/pexels-photo-259968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt="Resim.">
+    <section id="single-product">
+        <div class="container">
+            <div class="images-and-selectors">
+                <div class="images">
+                    <img class="image shown" src="assets/img/product-images/product-1.jpg" alt="First product image.">
+                    <img class="image" src="assets/img/product-images/product-2.jpg" alt="Second product image.">
+                    <img class="image" src="assets/img/product-images/product-3.jpg" alt="Third product image.">
                 </div>
-                <div class="text-container">
-                    <h2>Uzmanlık Alanımız Vida & Kovan</h2>
-                    <p>
-                        İşinde uzman makine mühendislerimizce, ihtiyacınıza en uygun optimal düzeyde Ocakların
-                        tasarımını ve yüksek kalitede imalatını yapıyoruz.
-                    </p>
+
+                <div class="selectors">
+                    <div onclick="changeProductImg(0)"></div>
+                    <div onclick="changeProductImg(1)"></div>
+                    <div onclick="changeProductImg(2)"></div>
                 </div>
             </div>
 
-            <div class="content-container right">
-                <div class="img-container">
-                    <img src="https://images.unsplash.com/photo-1531053326607-9d349096d887?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="Resim.">
-                </div>
-                <div class="text-container">
-                    <h2>Makine Revizyon Hizmeti</h2>
-                    <p>
-                        Ahmet Ünal Makina Plastik Olarak, Her Türlü Enjeksiyon Makinenizi Belki de İlk Günkü Durumundan
-                        Bile Daha İyi Yeniliyoruz.
-                    </p>
-                </div>
-            </div>
-
-            <div class="content-container left">
-                <div class="img-container">
-                    <img src="https://images.unsplash.com/photo-1567093322503-341d262ad8f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="Resim.">
-                </div>
-                <div class="text-container">
-                    <h2>Makine Yardımcı Ekipman Satışı</h2>
-                    <p>
-                        Kurutucu, yükleyici, mikser, kırma makineleri gibi yüzlerce ürün ve yedek parçanın satışını ve
-                        servis hizmetini sağlıyoruz.
-                    </p>
-                </div>
+            <div class="product-info">
+                <h2>Product Name</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ipsam ab numquam repellendus.
+                    Mollitia, corporis voluptas. Rem eaque modi illum fugit dolorem aut iusto, enim incidunt nihil esse
+                    ut!
+                </p>
             </div>
         </div>
     </section>
@@ -128,7 +102,7 @@
             <div class="logo-and-social-media">
                 <div class="logo-container">
                     <h1>LOGO</h1>
-                    <p>Burada slogan olacak.</p>
+                    <p>Kaliteli İnovasyon, Güvenilir Çözümler: Ahmet Ünal Makina Plastik ile Farkı Keşfedin!</p>
                 </div>
 
                 <div class="follow-us">
@@ -218,6 +192,7 @@
     </footer>
 
     <script src="assets/js/header.js"></script>
+    <script src="assets/js/single-product-page.js"></script>
 </body>
 
 </html>
