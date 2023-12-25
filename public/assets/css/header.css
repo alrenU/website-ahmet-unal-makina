@@ -58,25 +58,35 @@
 
 .banner-img-selector {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
+    bottom: 50%;
+    right: 20px;
 
-    transform: translateX(-50%);
-
-    width: 80px;
     margin: auto;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .img-selector {
     width: 15px;
     height: 15px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
+    border-radius: 15px;
     box-shadow: 0px 2px 20px #3b3b3b;
+    margin-block: 5px;
+
+    background-color: #1919197e;
     cursor: pointer;
+}
+
+.active {
+    height: 75px;
+    background-size: 100% 200%;
+    background: linear-gradient(rgb(211,211,211, 0.2) 0%, rgb(211,211,211, 0.6) 8%, rgb(211,211,211, 0.2) 16%);
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {background-position: 0% 100%}
 }
 
 .banner-message>* {

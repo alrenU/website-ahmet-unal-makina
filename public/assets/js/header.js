@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let bannerTexts = document.querySelectorAll(".banner-message");
 
         let imageSelectors = document.querySelectorAll(".img-selector");
-        imageSelectors[0].style.backgroundColor = "rgb(255, 255, 255)";
+        imageSelectors[imgIndex].className = "img-selector active";
 
         for (let i = 0; i < imageSelectors.length; i++) {
             imageSelectors[i].addEventListener("click", () => {
@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         const updateIndex = (newIndex) => {
-            imageSelectors[imgIndex].style.backgroundColor = "rgb(0, 0, 0)";
+            imageSelectors[imgIndex].className = "img-selector";
             imgIndex = newIndex;
-            imageSelectors[imgIndex].style.backgroundColor = "rgb(255, 255, 255)";
+            imageSelectors[imgIndex].className = "img-selector active";
         };
 
         const showSelectedImage = (index) => {
