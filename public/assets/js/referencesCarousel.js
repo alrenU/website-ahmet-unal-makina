@@ -1,28 +1,38 @@
-let currentIndex = 0;
 const carouselContainer = document.querySelector('.carousel-container');
 const totalItems = document.querySelectorAll('.carousel-item').length;
 let translateXValue = -1800
+let transitionEndEventListener = getTransitionEndEventListener();
+let interval
+let isAnimating = false
 
 function nextSlide() {
-    if (currentIndex < totalItems - 1) {
-        currentIndex++;
-    } else {
-        currentIndex = 0;
-    }
-    updateCarousel();
+    if(isAnimating) return;
+    isAnimating = true;
+
+    updateCarousel(-300);
+
+    setTimeout(function() {
+        isAnimating = false;
+    }, 550);
+
+    resetInterval();
 }
 
 function prevSlide() {
-    if (currentIndex > 0) {
-        currentIndex--;
-    } else {
-        currentIndex = totalItems - 1;
-    }
-    updateCarousel();
+    if(isAnimating) return;
+    isAnimating = true;
+
+    updateCarousel(300);
+
+    setTimeout(function() {
+        isAnimating = false;
+    }, 550);
+
+    resetInterval();
 }
 
-function updateCarousel() {
-    translateXValue -= 300 /*(carouselContainer.offsetWidth / 4)*/; 
+function updateCarousel(updateValue = -300) {
+    translateXValue += updateValue; 
     carouselContainer.style.transform = `translate3d(${translateXValue}px, 0px, 0px)`;
 
     if(translateXValue === 0 || translateXValue === -3000){
@@ -55,10 +65,14 @@ function getTransitionEndEventListener() {
     }
 }
 
-let transitionEndEventListener = getTransitionEndEventListener();
+function resetInterval() {
+    clearInterval(interval);
+    interval = setInterval(updateCarousel, 2500);
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
-    let interval = setInterval(updateCarousel, 2000);
+    interval = setInterval(updateCarousel, 2500);
 
     window.addEventListener('beforeunload', function () {
         clearInterval(interval);
