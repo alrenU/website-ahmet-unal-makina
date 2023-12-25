@@ -81,12 +81,14 @@
 .active {
     height: 75px;
     background-size: 100% 200%;
-    background: linear-gradient(rgb(211,211,211, 0.2) 0%, rgb(211,211,211, 0.6) 8%, rgb(211,211,211, 0.2) 16%);
+    background: linear-gradient(rgb(211, 211, 211, 0.2) 0%, rgb(211, 211, 211, 0.6) 8%, rgb(211, 211, 211, 0.2) 16%);
     animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {
-	0% {background-position: 0% 100%}
+    0% {
+        background-position: 0% 100%
+    }
 }
 
 .banner-message>* {
@@ -302,7 +304,7 @@
 
 .triangular-arrow {
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 30px;
 
     width: 20px;
@@ -320,9 +322,13 @@
 .tr,
 .en {
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 0px;
     opacity: 1;
+
+    background-color: #0B172C;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
 .en img,
@@ -334,6 +340,7 @@
 
 .selected {
     position: static;
+    background-color: transparent;
 }
 
 .hidden {
@@ -358,7 +365,7 @@
         opacity: 1;
 
         padding: 0px;
-        width: 550px;
+        width: 700px;
         height: auto;
         background-color: transparent;
     }
