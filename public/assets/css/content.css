@@ -264,8 +264,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
-    padding: 5px;
+    padding-block: 5px;
     transform: translate3d(-1800px, 0px, 0px);
     width: 4500px;
     transition: transform 0.5s ease-in-out;
@@ -287,6 +286,7 @@
     display: flex;
     width: 300px;
     height: 160px;
+    margin-inline: 12px;
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
     justify-content: center;
     filter: grayscale(70%);
@@ -300,19 +300,36 @@
 .nav-btn {
     cursor: pointer;
     position: absolute;
+    user-select: none;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
-    color: #333;
+    color: #1C0060;
+    background-color: #00D09B;
+    padding: 20px;
+    border-radius: 50px;
     z-index: 1;
 }
 
+.nav-btn p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .prev-btn {
-    left: 10px;
+    left: 0;
+}
+
+.prev-btn p {
+    left: 15px;
 }
 
 .next-btn {
-    right: 10px;
+    right: 0;
+}
+
+.next-btn p {
+    right: 15px;
 }
 
 /* TESTIMONIALS */
