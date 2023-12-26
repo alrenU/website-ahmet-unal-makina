@@ -74,20 +74,21 @@
     box-shadow: 0px 2px 20px #3b3b3b;
     margin-block: 5px;
 
-    background-color: #1919197e;
+    background-color: #191919d3;
     cursor: pointer;
+    transition: height 0.5s ease;
 }
 
 .active {
     height: 75px;
+    background: linear-gradient(rgb(255, 255, 255, 0.5) 0%, rgb(255, 255, 255, 1) 6%, rgb(255, 255, 255, 0.5) 12%);
     background-size: 100% 200%;
-    background: linear-gradient(rgb(211, 211, 211, 0.2) 0%, rgb(211, 211, 211, 0.6) 8%, rgb(211, 211, 211, 0.2) 16%);
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s linear;
 }
 
 @keyframes gradient {
     0% {
-        background-position: 0% 100%
+        background-position: 0% 200%
     }
 }
 
