@@ -1,0 +1,42 @@
+#about-us-detailed {
+    margin-top: 100px;
+}
+
+#about-us-detailed .container {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.product-info {
+    margin-bottom: 50px;
+}
+
+.container img {
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin-block: 20px;
+}
+
+.signature {
+    font-family: "Arizona";
+    font-size: 40px;
+    float: right;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1200px) {
+    #about-us-detailed .container {
+        width: 1200px;
+    }
+
+    img {
+        float: none;
+    }
+}

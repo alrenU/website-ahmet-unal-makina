@@ -106,12 +106,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // Open and close hamburger menu behaviors.
     const navElem = document.querySelector(".navigation");
     const navLinkElems = document.querySelectorAll(".nav-link");
-    const backgroundBlurElem = document.querySelector(".mobile-nav-background-layer");
+    const backgroundLayerElem = document.querySelector(".mobile-nav-background-layer");
 
     hamburgerMenuElem.addEventListener("click", () => {
         hamburgerMenuElem.classList.toggle("activated");
         navElem.classList.toggle("activated");
-        backgroundBlurElem.classList.toggle("activated");
+        backgroundLayerElem.classList.toggle("activated");
 
         // If the hamburger menu is open, change the header style to as if it is being scrolled.
         addOrRemoveAfterScrollStyle();
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
         navLinkElems[i].addEventListener("click", () => {
             hamburgerMenuElem.classList.remove("activated");
             navElem.classList.remove("activated");
-            backgroundBlurElem.classList.remove("activated");
+            backgroundLayerElem.classList.remove("activated");
             addOrRemoveAfterScrollStyle();
         });
     }

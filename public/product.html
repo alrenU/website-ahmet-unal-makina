@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/product.css" />
+    <title>Product</title>
+
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/content-header.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/footer.css" />
+</head>
+
+<body>
+    <div class="mobile-nav-background-layer"></div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="navigation-wrapper">
+            <p class="logo">LOGO</p>
+
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a class="nav-link internal-navigation" href="index.html#">Anasayfa</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#about-us">Hakkımızda</a></li>
+                    <li><a class="nav-link internal-navigation">Ürünlerimiz</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#services">Hizmetlerimiz</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#references">Referanslarımız</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#contact">İletişim</a></li>
+                </ul>
+
+                <div class="language-mobile">
+                    <img class="triangular-arrow hidden" src="assets/icons/language/triangular-arrow.svg"
+                        alt="Hangi dili seçeceğinizi gösteren belirteç.">
+
+                    <div class="tr selected">
+                        <img src="assets/icons/language/turkey.png" alt="Bu sayfa Türkçe dilinde görüntüleniyor.">
+                        <p>TR</p>
+                    </div>
+
+                    <div class="en hidden">
+                        <img src="assets/icons/language/united-kingdom.png"
+                            alt="Bu sayfayı İngilizce dilinde görüntüleyin.">
+                        <p>EN</p>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="language-desktop">
+                <img class="triangular-arrow hidden" src="assets/icons/language/triangular-arrow.svg"
+                    alt="Hangi dili seçeceğinizi gösteren belirteç.">
+
+                <div class="tr selected">
+                    <img src="assets/icons/language/turkey.png" alt="Bu sayfa Türkçe dilinde görüntüleniyor.">
+                    <p>TR</p>
+                </div>
+
+                <div class="en hidden">
+                    <img src="assets/icons/language/united-kingdom.png"
+                        alt="Bu sayfayı İngilizce dilinde görüntüleyin.">
+                    <p>EN</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="header-placeholder"></div>
+
+    <!-- PRODUCT DETAILS -->
+    <section id="product">
+        <div class="container">
+            <div class="images-and-selectors">
+                <div class="images">
+                    <img class="image shown" src="assets/img/product-images/product-1.jpg" alt="First product image.">
+                    <img class="image" src="assets/img/product-images/product-2.jpg" alt="Second product image.">
+                    <img class="image" src="assets/img/product-images/product-3.jpg" alt="Third product image.">
+                </div>
+
+                <div class="selectors">
+                    <div onclick="changeProductImg(0)"></div>
+                    <div onclick="changeProductImg(1)"></div>
+                    <div onclick="changeProductImg(2)"></div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="product-details">
+                    <a class="category-text" href="#">Category etc.</a>
+                    <h1>Product 1</h1>
+
+                    <div id="text-container">
+                        <p id="detailsText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.
+                        </p>
+                    </div>
+
+                    <hr class="grey-seperation-line">
+
+                    <h3>Additional Details</h3>
+
+                    <ul>
+                        <li>Lorem: Ipsum dolor sit amet.</li>
+                        <li>Tempor incididunt: Ut labore et dolore magna aliqua.</li>
+                        <li>Exercitation: ullamco laboris nisi.</li>
+                        <li>Sint Occaecat: cupidatat non proident, sunt in culpa qui.</li>
+                    </ul>
+                </div>
+
+                <button class="contact-button">contact</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content-container">
+            <div class="logo-and-social-media">
+                <div class="logo-container">
+                    <h1>LOGO</h1>
+                    <p>Kaliteli İnovasyon, Güvenilir Çözümler: Ahmet Ünal Makina Plastik ile Farkı Keşfedin!</p>
+                </div>
+
+                <div class="follow-us">
+                    <h2>Bizi Takip Edin</h2>
+
+                    <div>
+                        <a href="https://www.facebook.com/people/Ahmet-Unal-Makina-Plastik/100084843487311/"
+                            target="_blank">
+                            <img src="assets/icons/social-media/facebook.svg" alt="Facebook üzerinden takip edin.">
+                        </a>
+
+                        <a href="https://www.instagram.com/ahmetunalmakina" target="_blank">
+                            <img src="assets/icons/social-media/instagram.svg" alt="Instagram üzerinden takip edin.">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="footer-content">
+                <h2>Ürünler</h2>
+
+                <ul>
+                    <li>
+                        <a href="#">Vida & Kovan</a>
+                    </li>
+                    <li>
+                        <a href="#">Makine Revizyon</a>
+                    </li>
+                    <li>
+                        <a href="#">Yardımcı Ekipman</a>
+                    </li>
+                    <li>
+                        <a href="#">Yedek Parça</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="footer-content">
+                <h2>İçerik</h2>
+
+                <ul>
+                    <li>
+                        <a class="internal-navigation" href="index.html#">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation" href="index.html#about-us">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation">Ürünlerimiz</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation" href="index.html#services">Hizmetlerimiz</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation" href="index.html#references">Referanslarımız</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation" href="index.html#contact">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="footer-content">
+                <h2>İletişim</h2>
+
+                <ul class="footer-contact-info">
+                    <li>
+                        <img src="assets/icons/contact/location.svg" alt="Location icon.">
+                        <p>İ.O.S.B. Atatürk Oto Sanayi Sit. 21. Ada No: 615 Başakşehir/İSTANBUL - TÜRKİYE</p>
+                    </li>
+                    <li>
+                        <img src="assets/icons/contact/smartphone.svg" alt="Smartphone icon.">
+
+                        <div>
+                            <a href="tel:+905359818904">+90 535 981 89 04</a>
+                            <a href="tel:+902124851505">+90 212 485 1505</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/icons/contact/mail.svg" alt="Mail icon.">
+                        <a href="#" class="long-text">info@ahmetunalmakina.com</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="copyright">
+            <p class="copyright">Copyright<sup>©</sup> &nbsp; Ahmet Unal Makina.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/product.js"></script>
+
+    <!-- <script src="/public/assets/js/readmore.js"></script> -->
+    <!-- <script src="assets/js/onLoad.js"></script> -->
+</body>
+
+</html>

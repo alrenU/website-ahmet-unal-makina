@@ -18,6 +18,11 @@
     src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 
+@font-face {
+    font-family: "Arizona";
+    src: url("../fonts/Arizonia/Arizonia-Regular.ttf");
+}
+
 * {
     margin: 0px;
     padding: 0px;

@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Product Page</title>
 
-    <link rel="stylesheet" href="assets/css/single-product-page.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/content-header.css">
+    <link rel="stylesheet" href="assets/css/about-us.css">
     <link rel="stylesheet" href="assets/css/footer.css" />
 </head>
 
 <body>
+    <div class="mobile-nav-background-layer"></div>
+
     <!-- HEADER -->
     <header>
         <div class="navigation-wrapper">
@@ -27,12 +29,12 @@
 
             <nav class="navigation">
                 <ul>
-                    <li><a class="nav-link internal-navigation" href="#">Anasayfa</a></li>
-                    <li><a class="nav-link internal-navigation" href="#about-us">Hakkımızda</a></li>
-                    <li><a class="nav-link internal-navigation" href="#products">Ürünlerimiz</a></li>
-                    <li><a class="nav-link internal-navigation" href="#services">Hizmetlerimiz</a></li>
-                    <li><a class="nav-link internal-navigation" href="#references">Referanslarımız</a></li>
-                    <li><a class="nav-link internal-navigation" href="#contact">İletişim</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#">Anasayfa</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#about-us">Hakkımızda</a></li>
+                    <li><a class="nav-link internal-navigation">Ürünlerimiz</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#services">Hizmetlerimiz</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#references">Referanslarımız</a></li>
+                    <li><a class="nav-link internal-navigation" href="index.html#contact">İletişim</a></li>
                 </ul>
 
                 <div class="language-mobile">
@@ -70,29 +72,61 @@
         </div>
     </header>
 
-    <section id="single-product">
+    <!-- CONTENT -->
+    <section id="about-us-detailed">
         <div class="container">
-            <div class="images-and-selectors">
-                <div class="images">
-                    <img class="image shown" src="assets/img/product-images/product-1.jpg" alt="First product image.">
-                    <img class="image" src="assets/img/product-images/product-2.jpg" alt="Second product image.">
-                    <img class="image" src="assets/img/product-images/product-3.jpg" alt="Third product image.">
-                </div>
+            <img src="assets/img/about-us.jpg" alt="About us image.">
 
-                <div class="selectors">
-                    <div onclick="changeProductImg(0)"></div>
-                    <div onclick="changeProductImg(1)"></div>
-                    <div onclick="changeProductImg(2)"></div>
-                </div>
-            </div>
+            <div class="content">
+                <h2>Hakkımızda</h2>
 
-            <div class="product-info">
-                <h2>Product Name</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ipsam ab numquam repellendus.
-                    Mollitia, corporis voluptas. Rem eaque modi illum fugit dolorem aut iusto, enim incidunt nihil esse
-                    ut!
+                    AHMET ÜNAL MAKİNA PLASTİK SANAYİ VE TİCARET LİMİTED ŞİRKETİ Hakkında
                 </p>
+
+                <p>
+                    2022 yılında kurulan AHMET ÜNAL MAKİNA PLASTİK SANAYİ VE TİCARET LİMİTED ŞİRKETİ, kurucu ortağı
+                    olduğu eski firmasıyla yollarını ayırma kararı alarak plastik enjeksiyon makineleri vida & kovan
+                    üretimiyle girişimcilik serüvenine başlamıştır. Bu girişimcilik serüvenini mağazacılık ve ekipman
+                    ticareti ile güçlendiren şirketimiz, kullanıcı öncelikli stratejileri ve ayrıcalıklı müşteri
+                    portföyüyle değerini paha biçilemez şekilde ikiye katlamıştır.
+                </p>
+
+                <p>
+                    Sunduğumuz hizmetlerdeki kalite ve müşteri memnuniyetine odaklanmamız, marka değerimizi hassasiyetle
+                    zirveye taşımamıza olanak sağlamıştır. Dünya standartlarına uygun çözüm ve güven odaklı
+                    ilkelerimizle, sektörde otorite konumunu koruyarak sayısız müşteriye en iyi hizmeti sunmaktayız.
+                </p>
+
+                <p>
+                    Profesyonellik, empati odaklı yaklaşım, dürüstlük ve gelişime açık bakış açımızla sektöre adım
+                    attığımız ilk günden bu yana istikrarlı bir büyüme sergileyerek, plastik enjeksiyon makineleri
+                    dünyasında saygın bir konuma yükseldik.
+                </p>
+
+                <p>
+                    AHMET ÜNAL MAKİNE PLASTİK olarak amacımız; enjeksiyon makineleri alanında en kaliteli ürünleri en
+                    uygun fiyatlarla tüketicilere sunmak. Geçmiş 10 yıl boyunca sektördeki yaklaşımımızı korumaya devam
+                    ederek, markamız aracılığıyla gerçekleştirdiğiniz alışverişlerde mağduriyet içermeyen, hızlı
+                    teslimat, iptal/iade/değişim bilinci ile yaklaşan müşteri temsilcilerimizle en keyifli alışveriş
+                    deneyimini yaşamanızı sağlıyoruz.
+                </p>
+
+                <p>
+                    Sektördeki gelişmeleri ve kullanıcı taleplerini takip ederek, çağdaş teknolojiyle buluşturduğumuz
+                    web adresimizi sizlere sunuyoruz. En iyi ekip arkadaşlarımız ve güçlü idari yönetimimizle tüketici
+                    haklarını en iyi şekilde yaşamanızı elde etmenizi sağlıyoruz.
+                </p>
+
+                <p>
+                    Hedefimiz; plastik imalatçıları camiasında müşteri memnuniyetinin en yüksek olduğu bir konuma
+                    ulaşmak, sizlerin takdirini kazanmak ve bu memnuniyeti daimiyetle korumaktır. Nitelikli misyonumuzu
+                    genişleterek projelerimizi hayata geçirmeye devam ediyoruz. Standartların üstünde kaliteyle öncülük
+                    ederek birçok memnuniyeti beraberinde getiren başarılı işlere imza atmayı sürdürüyoruz. Güçlü
+                    kadromuzla sorun odaklı çalışma prensibiyle sizin memnuniyetinizi sağlamaya devam edeceğiz.
+                </p>
+
+                <p class="signature">Ahmet Ünal Makina</p>
             </div>
         </div>
     </section>
@@ -146,19 +180,22 @@
 
                 <ul>
                     <li>
-                        <a class="internal-navigation" href="#">Anasayfa</a>
+                        <a class="internal-navigation" href="index.html#">Anasayfa</a>
                     </li>
                     <li>
-                        <a class="internal-navigation" href="#about-us">Hakkımızda</a>
+                        <a class="internal-navigation" href="index.html#about-us">Hakkımızda</a>
                     </li>
                     <li>
-                        <a class="internal-navigation" href="#services">Hizmetlerimiz</a>
+                        <a class="internal-navigation">Ürünlerimiz</a>
                     </li>
                     <li>
-                        <a class="internal-navigation" href="#references">Referanslarımız</a>
+                        <a class="internal-navigation" href="index.html#services">Hizmetlerimiz</a>
                     </li>
                     <li>
-                        <a class="internal-navigation" href="#contact">İletişim</a>
+                        <a class="internal-navigation" href="index.html#references">Referanslarımız</a>
+                    </li>
+                    <li>
+                        <a class="internal-navigation" href="index.html#contact">İletişim</a>
                     </li>
                 </ul>
             </nav>
@@ -193,7 +230,6 @@
     </footer>
 
     <script src="assets/js/header.js"></script>
-    <script src="assets/js/single-product-page.js"></script>
 </body>
 
 </html>
