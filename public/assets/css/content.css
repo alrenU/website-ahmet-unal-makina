@@ -84,13 +84,12 @@
     padding: 20px;
     padding-top: 30px;
     border-radius: 5px;
-    box-shadow: 2px 3px 5px 0px #4a4a4a;
+    box-shadow: 2px 3px 5px 0px #1c1c1c;
     margin-block: 15px;
     margin-inline: 5px;
     position: relative;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     z-index: 2;
-
 }
 
 #why-us li::before {
@@ -106,8 +105,8 @@
 
 #why-us li:hover {
     box-shadow:
-        -7px 3px 5px 0px #8f8f8f,
-        -2px 3px 5px 0px #4a4a4a;
+        -3px 3px 5px 0px #3f3f3f,
+        -2px 3px 5px 0px #1c1c1c;
     transform: perspective(1000px) rotateY(10deg);
     transform-origin: center;
 }
@@ -146,7 +145,7 @@
     padding-top: 160px;
     margin-top: -120px;
     /* background-image: url(https://images.pexels.com/photos/2569839/pexels-photo-2569839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
-    background-image: url(https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-image: url("../img/services-1920x1080.jpg");
     z-index: 0;
 }
 
