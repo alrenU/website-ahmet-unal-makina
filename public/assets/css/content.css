@@ -41,7 +41,7 @@
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 20px;
-    color: #5950f3;
+    color: #3c3c3c;
 }
 
 #about-us a {
@@ -203,6 +203,7 @@
     background: linear-gradient(#1C0060, #1C0060 50%, #00D09B 50%, #00D09B);
     background-size: 100% 200%;
     transition: background 0.8s;
+    border-radius: 5px;
 }
 
 .service:hover {
