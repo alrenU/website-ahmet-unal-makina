@@ -339,6 +339,11 @@
     margin-right: 10px;
 }
 
+.en p,
+.tr p {
+    width: 30px;
+}
+
 .selected {
     position: static;
     background-color: transparent;

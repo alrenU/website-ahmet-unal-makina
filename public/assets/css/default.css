@@ -37,7 +37,7 @@ body {
 
 p, a, blockquote, li {
     font-family: "Montserrat";
-    line-height: 25px;
+    line-height: 1.75rem;
 }
 
 a {

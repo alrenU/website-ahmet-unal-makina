@@ -23,7 +23,8 @@
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
-    color: #8380af;
+    letter-spacing: 0.1rem;
+    color: #1D3E53;
 }
 
 /* ABOUT US */
@@ -40,6 +41,7 @@
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 20px;
+    color: #5950f3;
 }
 
 #about-us button {
@@ -60,28 +62,42 @@
     width: 300px;
 }
 
+#about-us p {
+    font-size: 17px;
+}
+
 /* WHY US */
+#why-us .container {
+    margin-top: 30px;
+}
+
 #why-us ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 #why-us li {
-    background-color: #F1F1E6;
-    padding: 20px 15px 15px 15px;
+    width: 100%;
+    background-color: #eff2ff;
+    padding: 20px;
+    padding-top: 30px;
     border-radius: 5px;
     box-shadow: 2px 3px 5px 0px #4a4a4a;
+    margin-block: 15px;
+    margin-inline: 5px;
     position: relative;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    z-index: 2;
+
 }
 
 #why-us li::before {
     content: "";
     width: 100%;
-    height: 15px;
-    background-color: #D6A319;
+    height: 20px;
+    background-color: rgb(4 0 61);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -100,13 +116,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 #why-us .list-number {
     width: 50px;
     height: 50px;
-    background-color: #00AF8F;
+    background-color: rgb(4 0 61);
 
     display: flex;
     align-items: center;
@@ -117,6 +134,7 @@
 
 #why-us .list-number {
     font-size: 25px;
+    color: whitesmoke;
 }
 
 /* SERVICES */
@@ -124,8 +142,11 @@
     position: relative;
     background-attachment: fixed;
     background-size: cover;
-    padding: 100px 0px;
-    background-image: url(https://images.pexels.com/photos/2569839/pexels-photo-2569839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    padding: 120px 0px;
+    padding-top: 160px;
+    margin-top: -120px;
+    /* background-image: url(https://images.pexels.com/photos/2569839/pexels-photo-2569839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-image: url(https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     z-index: 0;
 }
 
@@ -137,8 +158,13 @@
     right: 0px;
     bottom: 0px;
     opacity: 0.80;
-    background-color: rgb(4, 0, 61);
+    /* background-color: rgb(4, 0, 61); */
+    background-color: rgb(4 0 61 / 75%);
     z-index: -1;
+}
+
+#services .section-heading {
+    color: #eff2ff;
 }
 
 #services .container {
@@ -154,7 +180,10 @@
 }
 
 #services .description p {
-    line-height: 50px;
+    line-height: 52px;
+    letter-spacing: 0.25rem;
+    font-size: 36px;
+    margin-bottom: 30px;
 }
 
 .service-list {
@@ -245,11 +274,13 @@
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 25px;
+    letter-spacing: 0.1rem;
 }
 
 /* REFERENCES */
 #references .container {
     text-align: center;
+    margin-block: 50px;
 }
 
 .company-logo-list {
@@ -289,7 +320,7 @@
     margin-inline: 12px;
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     transition: all 200ms ease;
 }
 
@@ -303,8 +334,8 @@
     user-select: none;
     top: 50%;
     transform: translateY(-50%);
-    color: #1C0060;
-    background-color: #00D09B;
+    color: #f4f4f4;
+    background-color: #242424;
     padding: 20px;
     border-radius: 50px;
     z-index: 1;
@@ -341,14 +372,16 @@
 
     width: 100%;
     height: 100%;
-    background-color: #dddddd;
-    opacity: 0.4;
+    /* background-color: #dddddd; */
+    /* background-color: #010465; */
+    background-color: #01046540;
+    /* opacity: 0.4; */
 }
 
 #testimonials {
     --blockquote-margin-top: 40px;
 
-    background-image: url("../img/testimonials-1920x1000.jpg");
+    /* background-image: url("../img/testimonials-1920x1000.jpg"); */
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center center;
@@ -381,6 +414,7 @@
     position: relative;
     top: 0px;
     left: 0px;
+    width: 100%;
 }
 
 .testimonial:hover {
@@ -390,10 +424,11 @@
 }
 
 .testimonial p {
-    background-color: #003637;
+    background-color: rgb(56 27 83);
     color: white;
 
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
@@ -405,7 +440,9 @@
 }
 
 blockquote {
+    font-size: 15px;
     line-height: 30px;
+    padding-top: 10px;
     margin-top: var(--blockquote-margin-top);
 }
 
@@ -417,7 +454,7 @@ blockquote::before,
 blockquote::after {
     font-size: 42px;
     position: relative;
-    color: #9a4f4f;
+    color: rgb(56 27 83);
     line-height: 10px;
     bottom: -17px;
 }
@@ -579,7 +616,7 @@ iframe {
     /* TESTIMONIALS */
     #testimonials .container {
         flex-direction: row;
-        gap: 30px;
+        gap: 20px;
     }
 
     .testimonial:nth-of-type(3) blockquote {
