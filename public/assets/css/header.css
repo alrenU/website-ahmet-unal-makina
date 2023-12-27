@@ -92,6 +92,37 @@
     }
 }
 
+/* NEW BANNER */
+@keyframes text-clip {
+    from {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+.message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(73, 73, 73, 0.4);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.message h1 {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+/* OLD BANNER */
 .banner-message>* {
     position: relative;
     display: block;
