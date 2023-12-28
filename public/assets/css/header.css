@@ -103,7 +103,11 @@
     }
 }
 
-.message {
+/* #myText {
+    animation: reveal 2s ease-in-out forwards;
+} */
+
+.banner-message-wrapper {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -112,15 +116,62 @@
     transform: translate(-50%, -50%);
 
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     backdrop-filter: blur(3px);
     background-color: rgba(73, 73, 73, 0.4);
     border-radius: 10px;
     box-sizing: border-box;
 }
 
-.message h1 {
-    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+.banner-message-wrapper h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    animation: header-anim 0.7s ease-in-out forwards;
 }
+
+.banner-message-wrapper p {
+    animation: p-anim-start 0.5s ease-in-out forwards,
+        p-anim-continue 0.5s ease-in-out 0.5s forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header-anim {
+    from {
+        clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+        /* clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%); */
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes p-anim-start {
+    from {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    }
+
+    to {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    }
+}
+
+@keyframes p-anim-continue {
+    from {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+/* .message h1 {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+} */
 
 /* OLD BANNER */
 .banner-message>* {
@@ -387,7 +438,7 @@
 
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 
     /* HAMBURGER MENU */
     .hamburger-menu {
@@ -420,6 +471,18 @@
         color: white;
     }
 
+    /* NEW BANNER TEXT */
+    .banner-message-wrapper {
+        top: 50%;
+        transform: translate(0%, -50%);
+        left: 100px;
+
+        width: 800px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    /* NEW BANNER TEXT */
     .banner-message {
         width: 500px;
         text-align: left;
