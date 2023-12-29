@@ -113,7 +113,7 @@
 }
 
 .banner-message-wrapper h1 {
-    font-size: 40px;
+    font-size: 30px;
     animation: header-clip 0.7s ease-in-out forwards;
 }
 
@@ -518,6 +518,11 @@
         text-align: left;
         align-items: flex-start;
     }
+
+    .banner-message-wrapper h1 {
+        font-size: 40px;
+    }
+
 
     /* NEW BANNER TEXT */
     .banner-message {
