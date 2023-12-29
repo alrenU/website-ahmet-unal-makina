@@ -126,12 +126,16 @@
     animation: hr-clip 0.5s ease-in-out forwards;
 }
 
-.banner-message-wrapper p {
+.banner-message-wrapper div {
     animation: p-clip-start 0.5s ease-in-out forwards,
         p-clip-continue 0.5s ease-in-out 0.5s forwards;
 }
 
 .banner-button {
+    display: block;
+    width: 100px;
+    margin-inline: auto;
+
     text-align: center;
     font-size: 14px;
     font-family: "Barlow", sans-serif;
@@ -521,6 +525,11 @@
 
     .banner-message-wrapper h1 {
         font-size: 40px;
+    }
+
+    .banner-button {
+        margin-inline: auto;
+        margin-inline: unset;
     }
 
 
