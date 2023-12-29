@@ -365,28 +365,26 @@
 }
 
 /* TESTIMONIALS */
-#testimonials::before {
+/* #testimonials::before {
     content: "";
     position: absolute;
     top: 0px;
     left: 0px;
-
     width: 100%;
     height: 100%;
-    /* background-color: #dddddd; */
-    /* background-color: #010465; */
-    background-color: #01046540;
-    /* opacity: 0.4; */
-}
+
+    background: radial-gradient(at 75% 25%, #431e57, #22183b);
+    background: radial-gradient(at 100% 25%, #ffffff, #b8bcd8);
+} */
 
 #testimonials {
     --blockquote-margin-top: 40px;
 
-    /* background-image: url("../img/testimonials-1920x1000.jpg"); */
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-color: #b8bcd8;
 
     position: relative;
     background-size: cover;
