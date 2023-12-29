@@ -138,6 +138,10 @@
         div-clip-continue 1s ease-in-out 0.5s forwards;
 }
 
+.banner-message-wrapper p {
+    font-size: unset;
+}
+
 .banner-button {
     display: block;
     width: 100px;
@@ -410,6 +414,24 @@
 
 
 /* MEDIA QUERIES */
+
+/* SMALLLER PHONES */
+@media screen and (max-height: 750px) {
+    .banner-message-wrapper h1 {
+        font-size: 25px;
+    }
+
+    .banner-message-wrapper p {
+        font-size: 14px;
+    }
+
+    .banner-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+/* DESKTOP */
 @media screen and (min-width: 1200px) {
 
     /* BANNER */
