@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!(bannerImagesContainer === null)) {
         let images = document.querySelectorAll(".banner-img");
-        let bannerTexts = document.querySelectorAll(".banner-message");
+        let bannerTexts = document.querySelectorAll(".banner-message-wrapper");
 
         let imageSelectors = document.querySelectorAll(".img-selector");
         imageSelectors[imgIndex].className = "img-selector active";
@@ -47,18 +47,18 @@ document.addEventListener("DOMContentLoaded", () => {
             let currentlyDisplayedIndex = 0;
 
             for (let i = 0; i < availableBannerTexts; i++) {
-                if (bannerTexts[i].classList.contains("display-message")) {
+                if (bannerTexts[i].classList.contains("display-banner-message")) {
                     currentlyDisplayedIndex = i;
                     break;
                 }
             }
 
             if (selectedBannerTextIndex === null) {
-                bannerTexts[currentlyDisplayedIndex].classList.remove("display-message");
-                bannerTexts[(currentlyDisplayedIndex + 1) % availableBannerTexts].classList.add("display-message");
+                bannerTexts[currentlyDisplayedIndex].classList.remove("display-banner-message");
+                bannerTexts[(currentlyDisplayedIndex + 1) % availableBannerTexts].classList.add("display-banner-message");
             } else {
-                bannerTexts[currentlyDisplayedIndex].classList.remove("display-message");
-                bannerTexts[(selectedBannerTextIndex) % availableBannerTexts].classList.add("display-message");
+                bannerTexts[currentlyDisplayedIndex].classList.remove("display-banner-message");
+                bannerTexts[(selectedBannerTextIndex) % availableBannerTexts].classList.add("display-banner-message");
             }
         }
 

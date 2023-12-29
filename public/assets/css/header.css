@@ -95,7 +95,7 @@
 /* BANNER */
 .banner-message-wrapper {
     position: absolute;
-    left: 50%;
+    left: -100%;
     top: 50%;
     width: 80%;
     padding: 10px;
@@ -110,25 +110,32 @@
     background-color: rgba(73, 73, 73, 0.4);
     border-radius: 10px;
     box-sizing: border-box;
+    transition: all 0.5s;
 }
 
 .banner-message-wrapper h1 {
     font-size: 30px;
-    animation: header-clip 0.7s ease-in-out forwards;
+}
+
+.banner-message-wrapper.display-banner-message h1 {
+    animation: header-clip 1s ease-in-out forwards;
 }
 
 .banner-message-wrapper hr {
     width: 200px;
     height: 1px;
-    margin-block: 20px;
+    margin-block: 10px;
     border-radius: 10px;
     background-color: white;
-    animation: hr-clip 0.5s ease-in-out forwards;
 }
 
-.banner-message-wrapper div {
+.banner-message-wrapper.display-banner-message hr {
+    animation: hr-clip 1s ease-in-out forwards;
+}
+
+.banner-message-wrapper.display-banner-message div {
     animation: div-clip-start 0.5s ease-in-out forwards,
-        div-clip-continue 0.5s ease-in-out 0.5s forwards;
+        div-clip-continue 1s ease-in-out 0.5s forwards;
 }
 
 .banner-button {
@@ -174,6 +181,10 @@
     }
 }
 
+.banner-button-two {
+    width: 200px;
+}
+
 @keyframes header-clip {
     from {
         clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
@@ -212,6 +223,10 @@
     to {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+}
+
+.display-banner-message {
+    left: 50%;
 }
 
 /* HAMBURGER MENU */
@@ -398,10 +413,9 @@
 @media screen and (min-width: 1200px) {
 
     /* BANNER */
-    .banner-message-wrapper {
-        top: 50%;
-        transform: translate(0%, -50%);
+    .banner-message-wrapper.display-banner-message {
         left: 100px;
+        transform: translate(0%, -50%);
 
         width: 800px;
         text-align: left;
