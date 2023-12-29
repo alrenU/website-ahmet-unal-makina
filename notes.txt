@@ -1,5 +1,5 @@
 /*** General Notes ***/
-+ Do not forget to add hover to the navigation links.
++ In header navigation the products link does not work because it is been controlled by the js.
 
 
 

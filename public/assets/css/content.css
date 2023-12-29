@@ -16,7 +16,7 @@
 #references .container,
 #testimonials .container,
 #contact .container {
-    width: 300px;
+    width: 90%;
 }
 
 .section-heading {
@@ -169,6 +169,9 @@
 
 #services .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #services .description {
@@ -602,6 +605,10 @@ iframe {
     }
 
     /* SERVICE */
+    #services .container {
+        display: block;
+    }
+
     .service-list {
         display: flex;
         flex-direction: row;
