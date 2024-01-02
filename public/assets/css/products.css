@@ -35,42 +35,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 100%;
-    cursor: pointer;
-    transition: all 0.5s;
-
-    &:hover {
-        transform: scale(1.05);
-    }
 }
 
-.our-products div,
-.secon-hand-products div {
+.our-products img,
+.secon-hand-products img {
     width: 100%;
     padding-bottom: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
     
     object-fit: cover;
     background-position: center center;
     background-repeat: no-repeat;
 
     filter: grayscale(100);
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-.our-products div {
-    background-image: url("../img/products-500x500.jpg");
+    transition: all 0.5s;
+    cursor: pointer;
 
     &:hover {
-        filter: grayscale(0);
-    }
-}
-
-.secon-hand-products div {
-    background-image: url("../img/second-hand-products-500x500.jpg");
-
-    &:hover {
+        transform: scale(1.05);
         filter: grayscale(0);
     }
 }
@@ -85,7 +69,7 @@
         gap: unset;
     }
 
-    .our-products div, .secon-hand-products div {
+    .our-products img, .secon-hand-products img {
         width: 400px;
         height: 400px;
         padding-bottom: unset;
