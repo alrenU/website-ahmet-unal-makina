@@ -1,5 +1,5 @@
 /*** General Notes ***/
-+ In header navigation the products link does not work because it is been controlled by the js.
++ Images on the 17th and 18th page (kırıcılar - spare parts) did not taken. Do it while coding the website.
 
 
 
