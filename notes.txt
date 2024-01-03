@@ -1,10 +1,33 @@
 /*** General Notes ***/
++ (Sorulacak) İş başvuruları yapılabilsin mi?
++ Referanslar kısmı mobilde bozuk.
 + Images on the 17th and 18th page (kırıcılar - spare parts) did not taken. Do it while coding the website.
-+ Last point is screw-and-sleeve.
++ Ürünler için içerik düzeni:
+  - Vida & Kovan
+    > Vida & Kovan Ekipmanları
+    > Konik İkiz Vida & Kovan
+    
+  - Karıştırıcılar
+    > İthal Karıştırıcı
+    > Yerli Karıştırıcı
+    
+  - Yükleyiciler
+    > Üstten Yükleyici
+    > Yerden Yükleyici
+    > Yükleyici Ekipmanları
+    
+  - Kurutucular
+    > Kurutucu Ekipmanları
+    
+  - Yüksek Basınçlı Fan Motoru
+  - Yüksek Basınçlı Vakum Motoru
+  - Kalıp Şartlandırıcılar
+  - Kırıcılar
+  - Enjeksiyon Yardımcı Ekipmanları
 
 
 
-/*** Custom emain domain spam issue ***/
+/*** Custom Email Domain Spam Issue ***/
 + Google links that provides instructions and problem detection.
   - https://support.google.com/mail/answer/81126
   - https://support.google.com/mail/troubleshooter/2696779#ts=9283752
@@ -68,14 +91,6 @@
   - Uzmanlık Alanımız Vida & Kovan: İşinde uzman makine mühendislerimizce, ihtiyacınıza en uygun optimal düzeyde ocakların tasarımını ve yüksek kalitede imalatını yapıyoruz.
   - Makine Revizyon Hizmeti: Ahmet Ünal Makina Plastik olarak her türlü enjeksiyon makinenizi belki de ilk günkü durumundan bile daha iyi yeniliyoruz.
   - Biliyor muydunuz?: Kurutucu, yükleyici, mikser, kırma makineleri vb. gibi yüzlerce ürün ve yedek parçanın satışını ve servis hizmetini sağlıyoruz.
-
-
-
-/*** Sorulacaklar ***/
-+ İş başvuruları yapılabilsin mi.
-+ Ürünlerimiz kısmına panel olacak mı?
-  - Panel olacaksa CDN vs. işin içerisine girecek (fiyat açısından), bunlar isteniyor mu?
-+ (Belki ChatGPT) Vida ve kovan kısmında içerik düzeltilecek.
 
 
 
