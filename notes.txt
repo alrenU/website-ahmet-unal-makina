@@ -1,5 +1,6 @@
 /*** General Notes ***/
 + Images on the 17th and 18th page (kırıcılar - spare parts) did not taken. Do it while coding the website.
++ Last point is mold-conditioners.
 
 
 
