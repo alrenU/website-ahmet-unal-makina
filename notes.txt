@@ -1,4 +1,10 @@
 /*** General Notes ***/
++ Olası hosting firmaları:
+  1. Hostinger
+  2. alastyr
+  3. isimtescil
+  4. (?) bluehost
+  5. (?) hostgator
 + (Sorulacak) İş başvuruları yapılabilsin mi?
 + Referanslar kısmı mobilde bozuk.
 + Images on the 17th and 18th page (kırıcılar - spare parts) did not taken. Do it while coding the website.
