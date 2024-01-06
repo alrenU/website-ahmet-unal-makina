@@ -24,9 +24,12 @@
     
   - Kurutucular
     > Kurutucu Ekipmanları
-    
-  - Yüksek Basınçlı Fan Motoru
-  - Yüksek Basınçlı Vakum Motoru
+
+  - (?) Yüksek Basınçlı Fan Motoru 
+    > Kurutucu sınıfında yer alıyor olabilir.
+  - (?) Yüksek Basınçlı Vakum Motoru
+    > Kurutucu sınıfında yer alıyor olabilir.
+
   - Kalıp Şartlandırıcılar
   - Kırıcılar
   - Enjeksiyon Yardımcı Ekipmanları

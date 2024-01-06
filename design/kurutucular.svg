@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="600mm"
+   viewBox="0 0 210 600"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="kurutucular.svg"
+   inkscape:export-filename="vida-ve-kovan-final.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="450.42701"
+     inkscape:cy="1568.3628"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,9060.2278"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="210,9053.9045"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="94.658112,9070.0002"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="105,9073.7632"
+       orientation="-1,0"
+       id="guide21"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect34"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:1.5;stroke-linejoin:round"
+       id="rect3"
+       width="210"
+       height="20.311264"
+       x="0"
+       y="-9.2207119e-06" />
+    <rect
+       style="fill:#333333;stroke-width:1.41421;stroke-linejoin:round"
+       id="rect4"
+       width="210"
+       height="13.796329"
+       x="0"
+       y="20.311255" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';letter-spacing:0.132292px;word-spacing:0.132292px;fill:#ffffff;stroke-width:1.5;stroke-linejoin:round"
+       x="84.284012"
+       y="29.043865"
+       id="text5"><tspan
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.5"
+         x="84.284012"
+         y="29.043865"
+         sodipodi:role="line">Kurutucular</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.6861;stroke-linejoin:round"
+       id="rect5"
+       width="46.954872"
+       height="38.985466"
+       x="25.868107"
+       y="41.870609"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="41.88451"
+       y="63.242981"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="41.88451"
+         y="63.242981">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.98362;stroke-linejoin:round"
+       id="rect6-2"
+       width="115.16099"
+       height="38.200592"
+       x="83.927635"
+       y="42.189434"
+       ry="5.3614855" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.132292px;word-spacing:0.132292px;fill:#ffffff;stroke-width:1.5;stroke-linejoin:round"
+       x="87.463432"
+       y="63.141815"
+       id="text8-9"><tspan
+         sodipodi:role="line"
+         id="tspan8-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.5"
+         x="87.463432"
+         y="63.141815">Matter by Matter Specifications</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.5;stroke-linejoin:round"
+       id="rect7"
+       width="98.408638"
+       height="52.946095"
+       x="55.795681"
+       y="90.38092"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.132292px;word-spacing:0.132292px;fill:#ffffff;stroke-width:1.5;stroke-linejoin:round"
+       x="96.152321"
+       y="119.49983"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.5"
+         x="96.152321"
+         y="119.49983">Table</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';letter-spacing:0.132292px;word-spacing:0.132292px;fill:#000000;stroke-width:1.5;stroke-linejoin:round"
+       x="78.845833"
+       y="559.76465"
+       id="text25"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         style="stroke-width:1.5"
+         x="78.845833"
+         y="559.76465" /></text>
+    <rect
+       style="fill:#666666;stroke-width:1.6861;stroke-linejoin:round"
+       id="rect1"
+       width="46.954872"
+       height="38.985466"
+       x="25.868107"
+       y="158.02269"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="26.811762"
+       y="174.64046"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="26.811762"
+         y="174.64046">Informative</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="26.811762"
+         y="184.55414"
+         id="tspan3">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:2.62295;stroke-linejoin:round"
+       id="rect2"
+       width="113.62988"
+       height="38.985466"
+       x="81.52256"
+       y="158.02269"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="128.39211"
+       y="180.48953"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="128.39211"
+         y="180.48953">Table</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';letter-spacing:0.132292px;word-spacing:0.132292px;fill:#000000;stroke-width:1.5;stroke-linejoin:round"
+       x="67.997894"
+       y="224.36653"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:1.5"
+         x="67.997894"
+         y="224.36653">Kurutucu Ekipmanları</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:2.62295;stroke-linejoin:round"
+       id="rect6"
+       width="113.62988"
+       height="38.985466"
+       x="48.185062"
+       y="234.22269"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="73.707489"
+       y="255.79729"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="73.707489"
+         y="255.79729">Informative Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:2.62295;stroke-linejoin:round"
+       id="rect8"
+       width="113.62988"
+       height="38.985466"
+       x="48.185062"
+       y="282.90601"
+       ry="3.4462287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="95.054604"
+       y="305.37283"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="95.054604"
+         y="305.37283">Table</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';letter-spacing:0.132292px;word-spacing:0.132292px;fill:#000000;stroke-width:1.5;stroke-linejoin:round"
+       x="79.639572"
+       y="349.3042"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:1.5"
+         x="79.639572"
+         y="349.3042">Yedek Parçalar</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect10"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="360.88062"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="377.15976"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="377.15976">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect11"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="360.88062"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="377.15976"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="377.15976">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect12"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="360.88062"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="377.15976"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="377.15976">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect13"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="360.88062"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="377.15976"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="377.15976">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect14"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="396.42746"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="412.7066"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="412.7066">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect15"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="396.42746"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="412.7066"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="412.7066">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect16"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="396.42746"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="412.7066"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="412.7066">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect17"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="396.42746"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="412.7066"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="412.7066">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect18"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="431.41302"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="447.69217"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="447.69217">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect19"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="431.41302"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="447.69217"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="447.69217">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect20"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="431.41302"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="447.69217"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="447.69217">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect21"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="431.41302"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="447.69217"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="447.69217">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect22"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="467.66095"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="483.94009"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="483.94009">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect23"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="467.66095"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="483.94009"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="483.94009">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect24"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="467.66095"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="483.94009"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="483.94009">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect26"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="467.66095"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="483.94009"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="483.94009">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect27"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="503.11511"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="519.39429"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="519.39429">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect28"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="503.11511"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="519.39429"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="519.39429">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect29"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="503.11511"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="519.39429"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="519.39429">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect30"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="503.11511"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="519.39429"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="519.39429">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect31"
+       width="34.6861"
+       height="28.799007"
+       x="25.868107"
+       y="540.9505"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="35.750126"
+       y="557.22968"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="35.750126"
+         y="557.22968">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect32"
+       width="34.6861"
+       height="28.799007"
+       x="70.014931"
+       y="540.9505"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="79.89695"
+       y="557.22968"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="79.89695"
+         y="557.22968">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect33"
+       width="34.6861"
+       height="28.799007"
+       x="114.16175"
+       y="540.9505"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="124.04377"
+       y="557.22968"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="124.04377"
+         y="557.22968">Img</tspan></text>
+    <rect
+       style="fill:#666666;stroke-width:1.24554;stroke-linejoin:round"
+       id="rect34"
+       width="34.6861"
+       height="28.799007"
+       x="158.30858"
+       y="540.9505"
+       ry="2.5457685" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.34474px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148705px;word-spacing:0.148705px;fill:#333333;stroke-width:1.6861;stroke-linejoin:round"
+       x="168.1906"
+       y="557.22968"
+       id="text35"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93094px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.6861"
+         x="168.1906"
+         y="557.22968">Img</tspan></text>
+  </g>
+</svg>
