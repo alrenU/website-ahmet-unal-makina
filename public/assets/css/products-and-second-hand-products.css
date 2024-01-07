@@ -1,8 +1,8 @@
-#products {
+#products-and-second-hand-products {
     margin-top: 100px;
 }
 
-#products .caption::before {
+#products-and-second-hand-products .caption::before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,7 +18,7 @@
     z-index: -1;
 }
 
-#products .caption {
+#products-and-second-hand-products .caption {
     position: relative;
     top: 0;
     left: 0;
@@ -36,7 +36,7 @@
     color: white;
 }
 
-#products .container {
+#products-and-second-hand-products .container {
     width: 90%;
     padding-block: 50px;
     gap: 80px;
@@ -78,7 +78,7 @@
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1200px) {
-    #products .container {
+    #products-and-second-hand-products .container {
         width: 1200px;
         flex-direction: row;
         gap: unset;
