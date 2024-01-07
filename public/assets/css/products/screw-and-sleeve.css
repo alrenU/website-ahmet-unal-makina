@@ -2,11 +2,6 @@
     margin-top: 100px;
 }
 
-.screw-and-sleeve .container {
-    width: 90%;
-    margin-block: 50px;
-}
-
 .screw-and-sleeve .caption::before {
     content: "";
     position: absolute;
@@ -41,6 +36,10 @@
     color: white;
 }
 
+.screw-and-sleeve .container {
+    width: 90%;
+}
+
 /* GENERAL */
 .our-services {
     display: flex;
@@ -48,6 +47,7 @@
     align-items: center;
 }
 
+.image-and-description,
 .informative-image,
 .our-services,
 .materials-and-hardening-processes,
