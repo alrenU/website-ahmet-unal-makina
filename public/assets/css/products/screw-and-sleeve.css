@@ -140,21 +140,23 @@ td {
     transform: scale(1.10);
 }
 
-/* Screw And Sleeve Equipment */
+/* SCREW AND SLEEVE EQUIPMENT */
 .screw-and-sleeve-equipment {
-    --edge-length: 280px;
+    --edge-length: 90vw;
     text-align: center;
 }
 
 .equipment-images {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
     gap: 10px;
 }
 
 .equipment {
     width: var(--edge-length);
     height: var(--edge-length);
+
     text-align: left;
     overflow: hidden;
     border-radius: 5px;
@@ -164,7 +166,7 @@ td {
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center center;
-    
+
     width: var(--edge-length);
     height: var(--edge-length);
 }
@@ -223,5 +225,14 @@ td {
 
     .image {
         width: 200px;
+    }
+
+    /* SCREW AND SLEEVE EQUIPMENT */
+    .screw-and-sleeve-equipment {
+        --edge-length: 280px;
+    }
+
+    .equipment-images {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
