@@ -56,27 +56,6 @@
     margin-block: 50px;
 }
 
-table {
-    margin-inline: auto;
-}
-
-th {
-    font-size: 18px;
-}
-
-th,
-td {
-    padding: 15px;
-}
-
-.dark-bg-color {
-    background-color: rgb(154, 154, 154);
-}
-
-.light-bg-color {
-    background-color: rgb(191, 190, 190);
-}
-
 /* IMAGE AND DESCRIPTION */
 .image-and-description {
     display: flex;
@@ -111,11 +90,6 @@ td {
     text-align: center;
 }
 
-.table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-}
-
 /* CANONICAL TWIN SCREW AND SLEEVE */
 .conical-twin-screw-and-sleeve {
     text-align: center;
@@ -146,7 +120,7 @@ td {
     text-align: center;
 }
 
-.equipment-images {
+.equipment-images {    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;

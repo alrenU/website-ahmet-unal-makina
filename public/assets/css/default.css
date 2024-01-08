@@ -64,3 +64,31 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+/* TABLE */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    margin-inline: auto;
+    text-align: center;
+}
+
+th {
+    font-size: 18px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.dark-bg-color {
+    background-color: rgb(154, 154, 154);
+}
+
+.light-bg-color {
+    background-color: rgb(191, 190, 190);
+}
