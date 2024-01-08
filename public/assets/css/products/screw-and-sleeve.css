@@ -56,6 +56,27 @@
     margin-block: 50px;
 }
 
+table {
+    margin-inline: auto;
+}
+
+th {
+    font-size: 18px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.dark-bg-color {
+    background-color: rgb(154, 154, 154);
+}
+
+.light-bg-color {
+    background-color: rgb(191, 190, 190);
+}
+
 /* IMAGE AND DESCRIPTION */
 .image-and-description {
     display: flex;
@@ -88,27 +109,6 @@
 /* MATERIALS AND HARDENING PROCESS */
 .materials-and-hardening-processes {
     text-align: center;
-}
-
-table {
-    margin-inline: auto;
-}
-
-th {
-    font-size: 18px;
-}
-
-th,
-td {
-    padding: 15px;
-}
-
-.dark-bg-color {
-    background-color: rgb(154, 154, 154);
-}
-
-.light-bg-color {
-    background-color: rgb(191, 190, 190);
 }
 
 .table-wrapper {
