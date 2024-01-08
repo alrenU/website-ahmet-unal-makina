@@ -121,6 +121,11 @@
     text-align: left;
     overflow: hidden;
     border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.equipment:hover {
+    transform: scale(1.05);
 }
 
 .equipment img {
